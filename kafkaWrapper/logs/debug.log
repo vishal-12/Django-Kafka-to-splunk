@@ -1,0 +1,1347 @@
+Watching for file changes with StatReloader
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\kafkaWrapper\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\kafkaWrapper\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\kafkaWrapper\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\kafkaWrapper\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\kafkaWrapper\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\kafkaWrapper\urls.py changed, reloading.
+Watching for file changes with StatReloader
+code 400, message Bad request version ('À\x13À')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('À\x13À')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('À\x13À')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('À\x13À')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+"GET /api/token HTTP/1.1" 301 0
+Method Not Allowed: /api/token/
+"GET /api/token/ HTTP/1.1" 405 40
+Internal Server Error: /api/token
+Traceback (most recent call last):
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\utils\deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to localhost:8000/api/token/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+"POST /api/token HTTP/1.1" 500 68046
+Bad Request: /api/token/
+"POST /api/token/ HTTP/1.1" 400 79
+Unsupported Media Type: /api/token/
+"POST /api/token/ HTTP/1.1" 415 62
+"POST /api/token/ HTTP/1.1" 200 483
+Bad Request: /api/token/
+"POST /api/token/ HTTP/1.1" 400 45
+"POST /api/token/ HTTP/1.1" 200 483
+Watching for file changes with StatReloader
+"POST /api/token/ HTTP/1.1" 200 483
+Internal Server Error: /api/token/api/v1/topics/list/
+Traceback (most recent call last):
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\views.py", line 44, in post
+    kafka_instance = Kafka(server, auto_offset_reset='earliest')
+  File "C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\Kafka.py", line 44, in __init__
+    self.consumer= KafkaConsumer("fluentd-poc",bootstrap_servers=self.bootstrap_servers,auto_offset_reset=self.auto_offset_reset)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\kafka\consumer\group.py", line 356, in __init__
+    self._client = KafkaClient(metrics=self._metrics, **self.config)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\kafka\client_async.py", line 210, in __init__
+    self.cluster = ClusterMetadata(**self.config)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\kafka\cluster.py", line 67, in __init__
+    self._bootstrap_brokers = self._generate_bootstrap_brokers()
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\kafka\cluster.py", line 72, in _generate_bootstrap_brokers
+    bootstrap_hosts = collect_hosts(self.config['bootstrap_servers'])
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\kafka\conn.py", line 1495, in collect_hosts
+    for host_port in hosts:
+TypeError: 'NoneType' object is not iterable
+"POST /api/token/api/v1/topics/list/ HTTP/1.1" 500 121461
+Bad Request: /api/token/api/v1/topics/list/
+"POST /api/token/api/v1/topics/list/ HTTP/1.1" 400 83
+Internal Server Error: /api/token/api/v1/topics/list/
+Traceback (most recent call last):
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\renderers.py", line 100, in render
+    ret = json.dumps(
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "C:\Python38\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Python38\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Python38\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "C:\Python38\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Thread is not JSON serializable
+"POST /api/token/api/v1/topics/list/ HTTP/1.1" 500 97896
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /api/token/ HTTP/1.1" 200 483
+Internal Server Error: /api/token/api/v1/topics/list/
+Traceback (most recent call last):
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\views.py", line 46, in post
+    return Response(json.dump(data), status=status.HTTP_201_CREATED)
+TypeError: dump() missing 1 required positional argument: 'fp'
+"POST /api/token/api/v1/topics/list/ HTTP/1.1" 500 91606
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\views.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /api/token/api/v1/topics/list/
+"POST /api/token/api/v1/topics/list/ HTTP/1.1" 400 2
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/token/api/v1/topics/list/
+Traceback (most recent call last):
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\views.py", line 48, in post
+    "mocha_process_id": process.id
+NameError: name 'process' is not defined
+"POST /api/token/api/v1/topics/list/ HTTP/1.1" 500 91463
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /api/token/ HTTP/1.1" 200 483
+"POST /api/token/api/v1/topics/list/ HTTP/1.1" 201 76
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\Kafka.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/token/api/v1/topics/list/
+Traceback (most recent call last):
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\renderers.py", line 100, in render
+    ret = json.dumps(
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "C:\Python38\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Python38\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Python38\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "C:\Python38\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Thread is not JSON serializable
+"POST /api/token/api/v1/topics/list/ HTTP/1.1" 500 97896
+Internal Server Error: /api/token/api/v1/topics/list/
+Traceback (most recent call last):
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\renderers.py", line 100, in render
+    ret = json.dumps(
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "C:\Python38\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Python38\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Python38\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "C:\Python38\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Thread is not JSON serializable
+"POST /api/token/api/v1/topics/list/ HTTP/1.1" 500 97896
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\Kafka.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/token/api/v1/topics/list/
+Traceback (most recent call last):
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\renderers.py", line 100, in render
+    ret = json.dumps(
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "C:\Python38\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Python38\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Python38\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "C:\Python38\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Thread is not JSON serializable
+"POST /api/token/api/v1/topics/list/ HTTP/1.1" 500 97896
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\kafkaWrapper\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/token/api/v1/topics/list/
+Traceback (most recent call last):
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\renderers.py", line 100, in render
+    ret = json.dumps(
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "C:\Python38\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Python38\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Python38\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "C:\Python38\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Thread is not JSON serializable
+"POST /api/token/api/v1/topics/list/ HTTP/1.1" 500 145
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\views.py changed, reloading.
+Watching for file changes with StatReloader
+Unauthorized: /api/token/api/v1/topics/list/
+"POST /api/token/api/v1/topics/list/ HTTP/1.1" 401 183
+"POST /api/token/ HTTP/1.1" 200 483
+Internal Server Error: /api/token/api/v1/topics/list/
+Traceback (most recent call last):
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\views.py", line 48, in post
+    if isinstance(data,Dict):
+NameError: name 'Dict' is not defined
+"POST /api/token/api/v1/topics/list/ HTTP/1.1" 500 145
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/token/api/v1/topics/list/
+Traceback (most recent call last):
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\views.py", line 48, in post
+    if isinstance(data,Dict):
+NameError: name 'Dict' is not defined
+"POST /api/token/api/v1/topics/list/ HTTP/1.1" 500 145
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/token/api/v1/topics/list/
+Traceback (most recent call last):
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\views.py", line 48, in post
+    if isinstance(data,Dict):
+NameError: name 'Dict' is not defined
+"POST /api/token/api/v1/topics/list/ HTTP/1.1" 500 145
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/token/api/v1/topics/list/
+Traceback (most recent call last):
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\renderers.py", line 100, in render
+    ret = json.dumps(
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "C:\Python38\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Python38\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Python38\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "C:\Python38\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Thread is not JSON serializable
+"POST /api/token/api/v1/topics/list/ HTTP/1.1" 500 145
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/token/api/v1/topics/list/
+Traceback (most recent call last):
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\renderers.py", line 100, in render
+    ret = json.dumps(
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "C:\Python38\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Python38\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Python38\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "C:\Python38\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Thread is not JSON serializable
+"POST /api/token/api/v1/topics/list/ HTTP/1.1" 500 145
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/token/api/v1/topics/list/
+Traceback (most recent call last):
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\renderers.py", line 100, in render
+    ret = json.dumps(
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "C:\Python38\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Python38\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Python38\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "C:\Python38\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Thread is not JSON serializable
+"POST /api/token/api/v1/topics/list/ HTTP/1.1" 500 145
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/token/api/v1/topics/list/
+Traceback (most recent call last):
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\renderers.py", line 100, in render
+    ret = json.dumps(
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "C:\Python38\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Python38\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Python38\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "C:\Python38\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Thread is not JSON serializable
+"POST /api/token/api/v1/topics/list/ HTTP/1.1" 500 145
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /api/token/api/v1/topics/list/ HTTP/1.1" 201 20
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\views.py changed, reloading.
+Watching for file changes with StatReloader
+Unauthorized: /api/token/api/v1/topics/list/
+"POST /api/token/api/v1/topics/list/ HTTP/1.1" 401 183
+"POST /api/token/ HTTP/1.1" 200 483
+"POST /api/token/api/v1/topics/list/ HTTP/1.1" 201 20
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /api/token/api/v1/topics/list/ HTTP/1.1" 201 20
+Watching for file changes with StatReloader
+"POST /api/token/ HTTP/1.1" 200 483
+"POST /api/token/api/v1/topics/list/ HTTP/1.1" 201 20
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /api/token/api/v1/topics/list/ HTTP/1.1" 201 20
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\Kafka.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /api/token/api/v1/topics/list/ HTTP/1.1" 201 20
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /api/token/api/v1/topics/list/ HTTP/1.1" 201 455
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/token/api/v1/topics/list/
+Traceback (most recent call last):
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\views.py", line 53, in post
+    topics = json.load(data)
+  File "C:\Python38\lib\json\__init__.py", line 293, in load
+    return loads(fp.read(),
+AttributeError: 'str' object has no attribute 'read'
+"POST /api/token/api/v1/topics/list/ HTTP/1.1" 500 145
+Internal Server Error: /api/token/api/v1/topics/list/
+Traceback (most recent call last):
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\views.py", line 53, in post
+    topics = json.load(data)
+  File "C:\Python38\lib\json\__init__.py", line 293, in load
+    return loads(fp.read(),
+AttributeError: 'str' object has no attribute 'read'
+"POST /api/token/api/v1/topics/list/ HTTP/1.1" 500 145
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /api/token/api/v1/topics/list/ HTTP/1.1" 201 455
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\views.py changed, reloading.
+Watching for file changes with StatReloader
+Unauthorized: /api/token/api/v1/topics/list/
+"POST /api/token/api/v1/topics/list/ HTTP/1.1" 401 183
+"POST /api/token/ HTTP/1.1" 200 483
+"POST /api/token/api/v1/topics/list/ HTTP/1.1" 201 373
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/token/api/v1/topics/list/
+Traceback (most recent call last):
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\views.py", line 58, in post
+    payload["Data"].update(topic)
+AttributeError: 'str' object has no attribute 'update'
+"POST /api/token/api/v1/topics/list/ HTTP/1.1" 500 145
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/token/api/v1/topics/list/
+Traceback (most recent call last):
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\views.py", line 59, in post
+    return Response(res, status=status.HTTP_201_CREATED)
+NameError: name 'res' is not defined
+"POST /api/token/api/v1/topics/list/ HTTP/1.1" 500 145
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /api/token/api/v1/topics/list/ HTTP/1.1" 201 369
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\views.py changed, reloading.
+Watching for file changes with StatReloader
+Unauthorized: /api/token/api/v1/topics/list/
+"POST /api/token/api/v1/topics/list/ HTTP/1.1" 401 183
+"POST /api/token/ HTTP/1.1" 200 483
+"POST /api/token/api/v1/topics/list/ HTTP/1.1" 201 369
+Bad Request: /api/token/api/v1/topics/list/
+"POST /api/token/api/v1/topics/list/ HTTP/1.1" 400 53
+"POST /api/token/api/v1/topics/list/ HTTP/1.1" 201 369
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /api/token/ HTTP/1.1" 200 483
+Unauthorized: /api/token/api/v1/topics/list/
+"POST /api/token/api/v1/topics/list/ HTTP/1.1" 401 183
+"POST /api/token/api/v1/topics/list/ HTTP/1.1" 201 369
+Bad Request: /api/token/logs/
+"POST /api/token/logs/ HTTP/1.1" 400 79
+"POST /api/token/api/v1/topics/list/ HTTP/1.1" 201 369
+Internal Server Error: /api/token/api/v1/topics/logs/
+Traceback (most recent call last):
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\renderers.py", line 100, in render
+    ret = json.dumps(
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "C:\Python38\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Python38\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Python38\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "C:\Python38\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type TypeError is not JSON serializable
+"POST /api/token/api/v1/topics/logs/ HTTP/1.1" 500 145
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\Kafka.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Unauthorized: /api/token/api/v1/topics/list/
+"POST /api/token/api/v1/topics/list/ HTTP/1.1" 401 183
+"POST /api/token/ HTTP/1.1" 200 483
+Internal Server Error: /api/token/api/v1/topics/list/
+Traceback (most recent call last):
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\renderers.py", line 100, in render
+    ret = json.dumps(
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "C:\Python38\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Python38\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Python38\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "C:\Python38\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type TypeError is not JSON serializable
+"POST /api/token/api/v1/topics/list/ HTTP/1.1" 500 145
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\Kafka.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/token/api/v1/topics/list/
+Traceback (most recent call last):
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\renderers.py", line 100, in render
+    ret = json.dumps(
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "C:\Python38\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Python38\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Python38\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "C:\Python38\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type TypeError is not JSON serializable
+"POST /api/token/api/v1/topics/list/ HTTP/1.1" 500 145
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\Kafka.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/token/api/v1/topics/list/
+Traceback (most recent call last):
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\renderers.py", line 100, in render
+    ret = json.dumps(
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "C:\Python38\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Python38\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Python38\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "C:\Python38\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type TypeError is not JSON serializable
+"POST /api/token/api/v1/topics/list/ HTTP/1.1" 500 145
+Watching for file changes with StatReloader
+"POST /api/token/ HTTP/1.1" 200 483
+Internal Server Error: /api/token/api/v1/topics/list/
+Traceback (most recent call last):
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\renderers.py", line 100, in render
+    ret = json.dumps(
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "C:\Python38\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Python38\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Python38\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "C:\Python38\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type TypeError is not JSON serializable
+"POST /api/token/api/v1/topics/list/ HTTP/1.1" 500 145
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/token/api/v1/topics/list/
+Traceback (most recent call last):
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\renderers.py", line 100, in render
+    ret = json.dumps(
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "C:\Python38\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Python38\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Python38\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "C:\Python38\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type TypeError is not JSON serializable
+"POST /api/token/api/v1/topics/list/ HTTP/1.1" 500 145
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/token/api/v1/topics/list/
+Traceback (most recent call last):
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\renderers.py", line 100, in render
+    ret = json.dumps(
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "C:\Python38\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Python38\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Python38\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "C:\Python38\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type TypeError is not JSON serializable
+"POST /api/token/api/v1/topics/list/ HTTP/1.1" 500 145
+Watching for file changes with StatReloader
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\Kafka.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"POST /api/token/ HTTP/1.1" 200 483
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/token/api/v1/topics/list/
+Traceback (most recent call last):
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\renderers.py", line 100, in render
+    ret = json.dumps(
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "C:\Python38\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Python38\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Python38\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "C:\Python38\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type TypeError is not JSON serializable
+"POST /api/token/api/v1/topics/list/ HTTP/1.1" 500 145
+"POST /api/token/ HTTP/1.1" 200 483
+Internal Server Error: /api/token/api/v1/topics/list/
+Traceback (most recent call last):
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\renderers.py", line 100, in render
+    ret = json.dumps(
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "C:\Python38\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Python38\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Python38\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "C:\Python38\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type TypeError is not JSON serializable
+"POST /api/token/api/v1/topics/list/ HTTP/1.1" 500 145
+Internal Server Error: /api/token/api/v1/topics/list/
+Traceback (most recent call last):
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\renderers.py", line 100, in render
+    ret = json.dumps(
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "C:\Python38\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Python38\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Python38\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "C:\Python38\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type TypeError is not JSON serializable
+"POST /api/token/api/v1/topics/list/ HTTP/1.1" 500 145
+Internal Server Error: /api/token/api/v1/topics/list/
+Traceback (most recent call last):
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\renderers.py", line 100, in render
+    ret = json.dumps(
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "C:\Python38\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Python38\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Python38\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "C:\Python38\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type TypeError is not JSON serializable
+"POST /api/token/api/v1/topics/list/ HTTP/1.1" 500 145
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"POST /api/token/ HTTP/1.1" 200 483
+Internal Server Error: /api/token/api/v1/topics/list/
+Traceback (most recent call last):
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\renderers.py", line 100, in render
+    ret = json.dumps(
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "C:\Python38\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Python38\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Python38\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "C:\Python38\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type TypeError is not JSON serializable
+"POST /api/token/api/v1/topics/list/ HTTP/1.1" 500 145
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\Kafka.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\Kafka.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\Kafka.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /api/token/ HTTP/1.1" 200 483
+Internal Server Error: /api/token/api/v1/topics/list/
+Traceback (most recent call last):
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\renderers.py", line 100, in render
+    ret = json.dumps(
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "C:\Python38\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Python38\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Python38\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "C:\Python38\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type TypeError is not JSON serializable
+"POST /api/token/api/v1/topics/list/ HTTP/1.1" 500 145
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /api/token/api/v1/topics/list/ HTTP/1.1" 201 369
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"POST /api/token/ HTTP/1.1" 200 483
+"POST /api/token/api/v1/topics/list/ HTTP/1.1" 201 369
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /api/token/api/v1/topics/list/ HTTP/1.1" 201 369
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\Kafka.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"POST /api/token/ HTTP/1.1" 200 483
+Internal Server Error: /api/token/api/v1/topics/list/
+Traceback (most recent call last):
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\renderers.py", line 100, in render
+    ret = json.dumps(
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "C:\Python38\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Python38\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Python38\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "C:\Python38\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type NameError is not JSON serializable
+"POST /api/token/api/v1/topics/list/ HTTP/1.1" 500 145
+Watching for file changes with StatReloader
+"POST /api/token/ HTTP/1.1" 200 483
+Internal Server Error: /api/token/api/v1/topics/list/
+Traceback (most recent call last):
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\renderers.py", line 100, in render
+    ret = json.dumps(
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "C:\Python38\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Python38\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Python38\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "C:\Python38\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type NameError is not JSON serializable
+"POST /api/token/api/v1/topics/list/ HTTP/1.1" 500 145
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\views.py changed, reloading.
+Watching for file changes with StatReloader
+Conflict: /api/token/api/v1/topics/list/
+"POST /api/token/api/v1/topics/list/ HTTP/1.1" 409 2
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\views.py changed, reloading.
+Watching for file changes with StatReloader
+Conflict: /api/token/api/v1/topics/list/
+"POST /api/token/api/v1/topics/list/ HTTP/1.1" 409 74
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /api/token/ HTTP/1.1" 200 483
+Conflict: /api/token/api/v1/topics/list/
+"POST /api/token/api/v1/topics/list/ HTTP/1.1" 409 74
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/token/api/v1/topics/list/
+Traceback (most recent call last):
+  File "C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\views.py", line 30, in post
+    data = kafka_instance.get_list_of_topic_and_partition()
+  File "C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\Kafka.py", line 66, in get_list_of_topic_and_partition
+    return json.dumps(payload)
+NameError: name 'json' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Vishal\Desktop\Personal\Projects\kafka-wrapper\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\views.py", line 37, in post
+    logger.info(topic)
+UnboundLocalError: local variable 'topic' referenced before assignment
+"POST /api/token/api/v1/topics/list/ HTTP/1.1" 500 145
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\views.py changed, reloading.
+Watching for file changes with StatReloader
+Conflict: /api/token/api/v1/topics/list/
+"POST /api/token/api/v1/topics/list/ HTTP/1.1" 409 74
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\views.py changed, reloading.
+Watching for file changes with StatReloader
+Conflict: /api/token/api/v1/topics/list/
+"POST /api/token/api/v1/topics/list/ HTTP/1.1" 409 74
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\views.py changed, reloading.
+Watching for file changes with StatReloader
+Conflict: /api/token/api/v1/topics/list/
+"POST /api/token/api/v1/topics/list/ HTTP/1.1" 409 74
+Watching for file changes with StatReloader
+Conflict: /api/token/api/v1/topics/list/
+"POST /api/token/api/v1/topics/list/ HTTP/1.1" 409 74
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\Kafka.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /api/token/api/v1/topics/list/ HTTP/1.1" 201 369
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\Kafka.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\Kafka.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\kafkaWrapper\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Unauthorized: /api/token/v1/topics/list/
+"POST /api/token/v1/topics/list/ HTTP/1.1" 401 183
+"POST /api/token/ HTTP/1.1" 200 483
+"POST /api/token/v1/topics/list/ HTTP/1.1" 201 369
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\Kafka.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\Kafka.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\Kafka.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"POST /api/token/ HTTP/1.1" 200 483
+Conflict: /api/token/v1/topics/list/
+"POST /api/token/v1/topics/list/ HTTP/1.1" 409 66
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\Kafka.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\Kafka.py changed, reloading.
+Watching for file changes with StatReloader
+Unauthorized: /api/token/v1/topics/list/
+"POST /api/token/v1/topics/list/ HTTP/1.1" 401 183
+"POST /api/token/ HTTP/1.1" 200 483
+Conflict: /api/token/v1/topics/list/
+"POST /api/token/v1/topics/list/ HTTP/1.1" 409 81
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\views.py changed, reloading.
+Watching for file changes with StatReloader
+Conflict: /api/token/v1/topics/list/
+"POST /api/token/v1/topics/list/ HTTP/1.1" 409 81
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"POST /api/token/ HTTP/1.1" 200 483
+"POST /api/token/v1/topics/list/ HTTP/1.1" 201 369
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\Kafka.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\Kafka.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\Kafka.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\Kafka.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /api/token/ HTTP/1.1" 200 483
+"POST /api/token/v1/topics/list/ HTTP/1.1" 201 369
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\views.py changed, reloading.
+Watching for file changes with StatReloader
+Unauthorized: /api/token/v1/topics/list/
+"POST /api/token/v1/topics/list/ HTTP/1.1" 401 183
+"POST /api/token/ HTTP/1.1" 200 483
+"POST /api/token/v1/topics/list/ HTTP/1.1" 201 369
+Unauthorized: /api/token/v1/topics/subscribe/
+"POST /api/token/v1/topics/subscribe/ HTTP/1.1" 401 58
+Conflict: /api/token/v1/topics/subscribe/
+"POST /api/token/v1/topics/subscribe/ HTTP/1.1" 409 149
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\views.py changed, reloading.
+Watching for file changes with StatReloader
+Conflict: /api/token/v1/topics/subscribe/
+"POST /api/token/v1/topics/subscribe/ HTTP/1.1" 409 118
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\views.py changed, reloading.
+Watching for file changes with StatReloader
+Conflict: /api/token/v1/topics/subscribe/
+"POST /api/token/v1/topics/subscribe/ HTTP/1.1" 409 118
+Conflict: /api/token/v1/topics/subscribe/
+"POST /api/token/v1/topics/subscribe/ HTTP/1.1" 409 118
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\views.py changed, reloading.
+Watching for file changes with StatReloader
+Conflict: /api/token/v1/topics/subscribe/
+"POST /api/token/v1/topics/subscribe/ HTTP/1.1" 409 118
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\views.py changed, reloading.
+Watching for file changes with StatReloader
+Conflict: /api/token/v1/topics/subscribe/
+"POST /api/token/v1/topics/subscribe/ HTTP/1.1" 409 71
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\views.py changed, reloading.
+Watching for file changes with StatReloader
+Conflict: /api/token/v1/topics/subscribe/
+"POST /api/token/v1/topics/subscribe/ HTTP/1.1" 409 93
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\Kafka.py changed, reloading.
+Watching for file changes with StatReloader
+Unauthorized: /api/token/v1/topics/subscribe/
+"POST /api/token/v1/topics/subscribe/ HTTP/1.1" 401 183
+"POST /api/token/ HTTP/1.1" 200 483
+Unauthorized: /api/token/v1/topics/list/
+"POST /api/token/v1/topics/list/ HTTP/1.1" 401 183
+"POST /api/token/v1/topics/list/ HTTP/1.1" 201 369
+Conflict: /api/token/v1/topics/subscribe/
+"POST /api/token/v1/topics/subscribe/ HTTP/1.1" 409 79
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /api/token/ HTTP/1.1" 200 483
+Conflict: /api/token/v1/topics/subscribe/
+"POST /api/token/v1/topics/subscribe/ HTTP/1.1" 409 86
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\views.py changed, reloading.
+Watching for file changes with StatReloader
+Conflict: /api/token/v1/topics/subscribe/
+"POST /api/token/v1/topics/subscribe/ HTTP/1.1" 409 119
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\Kafka.py changed, reloading.
+Watching for file changes with StatReloader
+Unauthorized: /api/token/v1/topics/subscribe/
+"POST /api/token/v1/topics/subscribe/ HTTP/1.1" 401 183
+"POST /api/token/ HTTP/1.1" 200 483
+Conflict: /api/token/v1/topics/subscribe/
+"POST /api/token/v1/topics/subscribe/ HTTP/1.1" 409 119
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\views.py changed, reloading.
+Watching for file changes with StatReloader
+Conflict: /api/token/v1/topics/subscribe/
+"POST /api/token/v1/topics/subscribe/ HTTP/1.1" 409 119
+Conflict: /api/token/v1/topics/subscribe/
+"POST /api/token/v1/topics/subscribe/ HTTP/1.1" 409 119
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\Kafka.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /api/token/ HTTP/1.1" 200 483
+Conflict: /api/token/v1/topics/subscribe/
+"POST /api/token/v1/topics/subscribe/ HTTP/1.1" 409 119
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /api/token/v1/topics/subscribe/ HTTP/1.1" 201 83
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\Kafka.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /api/token/v1/topics/subscribe/ HTTP/1.1" 201 83
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\Kafka.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /api/token/v1/topics/subscribe/ HTTP/1.1" 201 83
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\Kafka.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /api/token/v1/topics/subscribe/ HTTP/1.1" 201 83
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\Kafka.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /api/token/v1/topics/subscribe/ HTTP/1.1" 201 83
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\Kafka.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\Kafka.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\Kafka.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /api/token/ HTTP/1.1" 200 483
+"POST /api/token/v1/topics/subscribe/ HTTP/1.1" 201 83
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\Kafka.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /api/token/v1/topics/subscribe/ HTTP/1.1" 201 83
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\Kafka.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /api/token/v1/topics/subscribe/ HTTP/1.1" 201 83
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\Kafka.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\Kafka.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\Kafka.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /api/token/ HTTP/1.1" 200 483
+"POST /api/token/v1/topics/list/ HTTP/1.1" 201 369
