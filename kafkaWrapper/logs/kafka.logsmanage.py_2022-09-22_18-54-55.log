@@ -1,0 +1,24 @@
+2022-09-23 00:24:55,285 - Kafka-Service.log - INFO - Consumer 
+2022-09-23 00:24:55,990 - Kafka-Service.log - INFO - Done 
+2022-09-23 00:24:55,992 - Kafka-Service.log - INFO - Func [event_flush] Started
+2022-09-23 00:24:55,994 - Kafka-Service.log - INFO - Splunk Constructor Initiated
+2022-09-23 00:24:55,995 - Kafka-Service.log - INFO - Events received on thread. Sending to Splunk.
+2022-09-23 00:24:55,996 - Kafka-Service.log - INFO - Events received on thread. Sending to Splunk.
+2022-09-23 00:24:55,997 - Kafka-Service.log - INFO - Events received on thread. Sending to Splunk.
+2022-09-23 00:24:55,998 - Kafka-Service.log - INFO - Events received on thread. Sending to Splunk.
+2022-09-23 00:24:55,999 - Kafka-Service.log - INFO - Events received on thread. Sending to Splunk.
+2022-09-23 00:24:56,000 - Kafka-Service.log - INFO - Events received on thread. Sending to Splunk.
+2022-09-23 00:24:56,000 - Kafka-Service.log - INFO - Events received on thread. Sending to Splunk.
+2022-09-23 00:24:56,000 - Kafka-Service.log - INFO - Events received on thread. Sending to Splunk.
+2022-09-23 00:24:56,001 - Kafka-Service.log - INFO - Events received on thread. Sending to Splunk.
+2022-09-23 00:24:56,001 - Kafka-Service.log - INFO - Events received on thread. Sending to Splunk.
+2022-09-23 00:24:56,001 - Kafka-Service.log - INFO - HEC Instance Ready: server_uri=https://52.41.31.91:8088/services/collector/event
+2022-09-23 00:24:56,002 - Kafka-Service.log - INFO - Checking HEC Server URI reachability.
+2022-09-23 00:24:57,244 - Kafka-Service.log - INFO - Splunk Server URI is reachable.
+2022-09-23 00:24:57,248 - Kafka-Service.log - INFO - Connectivity Check: http_status_code=400 http_message={"text":"No data","code":5}
+2022-09-23 00:24:57,251 - Kafka-Service.log - INFO - Https Event Collector Derails [{'index': 'kafka-http', 'sourcetype': None, 'source': 'kafka-fluentd', 'host': 'SEZLAP-13959'}]
+2022-09-23 00:24:57,330 - Kafka-Service.log - INFO - task.status Success
+2022-09-23 00:25:55,278 - Kafka-Service.log - INFO - Producer -['52.41.31.91:39092'] 
+2022-09-23 00:25:56,036 - Kafka-Service.log - INFO - Consumer 
+2022-09-23 00:25:56,770 - Kafka-Service.log - INFO - Done 
+2022-09-23 00:25:56,772 - Kafka-Service.log - INFO - Pushed the logs

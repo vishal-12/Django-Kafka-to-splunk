@@ -76,10 +76,11 @@ class http_event_collector:
         session.mount('https://', adapter)
         return session
 
-    def __init__(self,token,http_event_server,input_type='json',host="",http_event_port='8088',http_event_server_ssl=True):
+    def __init__(self,token,http_event_server,input_type='json',host="",http_event_port='8088',http_event_server_ssl=True,logger=None):
 
-        self.log = logging.getLogger(u'HEC')
-        self.log.setLevel(logging.INFO)
+        self.log = logger
+        #self.log = logging.getLogger(u'HEC')
+        #self.log.setLevel(logging.INFO)
 
         self.token = token
         self.SSL_verify = False
@@ -107,7 +108,7 @@ class http_event_collector:
         else:
             self.host = socket.gethostname()
      
-        self.log.info("HEC Instance Ready: server_uri=%s",self.server_uri)
+        self.log.info("HEC Instance Ready: server_uri={}".format(self.server_uri))
 
     @property
     def server_uri(self):
@@ -162,14 +163,14 @@ class http_event_collector:
             else:
                 if response.status_code in acceptable_status_codes:
                     self.log.info("Splunk Server URI is reachable.")
-                    self.log.warn("Connectivity Check: http_status_code=%s http_message=%s",response.status_code,response.text)
+                    self.log.warn("Connectivity Check: http_status_code=%s http_message=%s" %(response.status_code,response.text))
                     hec_reachable = True
                 elif response.status_code in heath_warning_status_codes:
                     self.log.warn("Splunk HEC Server has potential health issues")
-                    self.log.error("Connectivity Check: http_status_code=%s http_message=%s",response.status_code,response.text)
+                    self.log.error("Connectivity Check: http_status_code=%s http_message=%s" %(response.status_code,response.text),100)
                 else:
                     self.log.warn("Splunk Server URI is unreachable.")
-                    self.log.error("HTTP status_code=%s message=%s",response.status_code,response.text)
+                    self.log.error("HTTP status_code=%s message=%s" %(response.status_code,response.text),100)
         except Exception as e:
             self.log.warn("Splunk Server URI is unreachable.")
             self.log.exception(e)
@@ -260,7 +261,7 @@ class http_event_collector:
             # try to post payload twice then give up and move on
             try:
                 response = self.requests_retry_session().post(self.server_uri, data=payload, headers=headers, verify=self.SSL_verify)
-                self.log.debug("batch_thread: http_status_code=%s http_message=%s",response.status_code,response.text)
+                self.log.debug("batch_thread: http_status_code=%s http_message=%s" %(response.status_code,response.text),100)
             except Exception as e:
                 self.log.exception(e)
 

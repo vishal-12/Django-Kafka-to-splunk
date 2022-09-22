@@ -1,5 +1,9 @@
 from rest_framework import serializers
-from wrapper.models import (KafkaBrokerModel, KafkaConsumerModel, SplunkCosumerSubscribeModel)
+from wrapper.models import (KafkaBrokerModel,
+                            KafkaConsumerModel,
+                            SplunkCosumerSubscribeModel,
+                            KafkaProducerModel,
+                            KafkaAdminClientModel)
 
 class KafkaBrokerSerializer(serializers.ModelSerializer):
     class Meta():
@@ -14,4 +18,14 @@ class KafkaConsumerSerializer(serializers.ModelSerializer):
 class SplunkConsumerSunscribeSerializer(serializers.ModelSerializer):
     class Meta():
         model = SplunkCosumerSubscribeModel
+        fields = '__all__'
+
+class KafkaProducerSerializer(serializers.ModelSerializer):
+    class Meta():
+        model = KafkaProducerModel
+        fields = '__all__'
+
+class KafkaAdminClientSerializer(serializers.ModelSerializer):
+    class Meta():
+        model = KafkaAdminClientModel
         fields = '__all__'

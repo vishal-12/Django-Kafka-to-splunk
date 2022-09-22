@@ -1,6 +1,7 @@
 from django.db import models
 from rest_framework.response import Response
 
+
 class KafkaBrokerModel(models.Model):
 
     class Meta:
@@ -56,4 +57,44 @@ class SplunkCosumerSubscribeModel(models.Model):
     updated_at = models.DateTimeField(auto_now=True)
 
     def __str__(self):
-        return "{0}".format(self.id)
+        return "{0}".format(self.topics)
+
+class KafkaAdminClientModel(models.Model):
+
+    class Meta:
+        db_table = 'tbl_admin_client'
+        verbose_name = "Admin Application Data"
+        verbose_name_plural = "Admin Logs"
+        ordering = ("-created_at",)
+
+    id = models.AutoField(primary_key=True)
+    bootstrap_servers = models.CharField(max_length=1000, default="Kafka Admin Server Data")
+    topics = models.CharField(max_length=1000, default="Kafka Admin Data")
+    client_id = models.CharField(max_length=1000, default="client_id")
+    partition =  models.IntegerField(default="Kafka Admin Data")
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+
+    def __str__(self):
+        return "{0}".format(self.topics)
+
+class KafkaProducerModel(models.Model):
+
+    class Meta:
+        db_table = 'tbl_producer_logs'
+        verbose_name = "Push Application Data"
+        verbose_name_plural = "Kafka Logs"
+        ordering = ("-created_at",)
+
+    id = models.AutoField(primary_key=True)
+    bootstrap_servers = models.CharField(max_length=1000, default="Kafka Bootstrap Server Data")
+    topics = models.CharField(max_length=1000, default="Kafka Topic Data")
+    partition =  models.IntegerField(default="Kafka Partition Data")
+    producer = models.BooleanField(default=True)
+    data = models.JSONField()
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+
+    def __str__(self):
+        return "{0}".format(self.topics)
+
