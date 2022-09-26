@@ -1819,3 +1819,164 @@ Watching for file changes with StatReloader
 "POST /api/token/v1/topics/producer/push/logs/ HTTP/1.1" 201 43
 C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\Kafka.py changed, reloading.
 Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"POST /api/token/ HTTP/1.1" 200 483
+"POST /api/token/v1/topics/subscribe/ HTTP/1.1" 201 83
+"POST /api/token/v1/topics/producer/push/logs/ HTTP/1.1" 201 43
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\logger.py changed, reloading.
+Watching for file changes with StatReloader
+Unauthorized: /api/token/v1/topics/subscribe/
+"POST /api/token/v1/topics/subscribe/ HTTP/1.1" 401 183
+"POST /api/token/ HTTP/1.1" 200 483
+"POST /api/token/v1/topics/subscribe/ HTTP/1.1" 201 83
+Unauthorized: /api/token/v1/topics/producer/push/logs/
+"POST /api/token/v1/topics/producer/push/logs/ HTTP/1.1" 401 183
+"POST /api/token/v1/topics/producer/push/logs/ HTTP/1.1" 201 43
+"POST /api/token/ HTTP/1.1" 200 483
+"POST /api/token/v1/topics/subscribe/ HTTP/1.1" 201 83
+Unauthorized: /api/token/v1/topics/producer/push/logs/
+"POST /api/token/v1/topics/producer/push/logs/ HTTP/1.1" 401 183
+"POST /api/token/v1/topics/producer/push/logs/ HTTP/1.1" 201 43
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\logger.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\logger.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /api/token/ HTTP/1.1" 200 483
+"POST /api/token/v1/topics/list/ HTTP/1.1" 201 403
+Unauthorized: /api/token/v1/topics/producer/push/logs/
+"POST /api/token/v1/topics/producer/push/logs/ HTTP/1.1" 401 183
+"POST /api/token/v1/topics/producer/push/logs/ HTTP/1.1" 201 43
+Unauthorized: /api/token/v1/topics/subscribe/
+"POST /api/token/v1/topics/subscribe/ HTTP/1.1" 401 183
+"POST /api/token/v1/topics/subscribe/ HTTP/1.1" 201 83
+"POST /api/token/v1/topics/subscribe/ HTTP/1.1" 201 83
+"POST /api/token/v1/topics/producer/push/logs/ HTTP/1.1" 201 43
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\Kafka.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\Kafka.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\logger.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /api/token/ HTTP/1.1" 200 483
+"POST /api/token/v1/topics/subscribe/ HTTP/1.1" 201 83
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\Kafka.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\Kafka.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"POST /api/token/ HTTP/1.1" 200 483
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\Kafka.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"POST /api/token/ HTTP/1.1" 200 483
+"POST /api/token/v1/topics/subscribe/ HTTP/1.1" 201 83
+"POST /api/token/v1/topics/producer/push/logs/ HTTP/1.1" 201 43
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\Kafka.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /api/token/ HTTP/1.1" 200 483
+Unauthorized: /api/token/v1/topics/subscribe/
+"POST /api/token/v1/topics/subscribe/ HTTP/1.1" 401 183
+"POST /api/token/ HTTP/1.1" 200 483
+"POST /api/token/v1/topics/subscribe/ HTTP/1.1" 201 83
+Unauthorized: /api/token/v1/topics/producer/push/logs/
+"POST /api/token/v1/topics/producer/push/logs/ HTTP/1.1" 401 183
+"POST /api/token/v1/topics/producer/push/logs/ HTTP/1.1" 201 43
+"POST /api/token/ HTTP/1.1" 200 483
+"POST /api/token/v1/topics/producer/push/logs/ HTTP/1.1" 201 43
+Watching for file changes with StatReloader
+"POST /api/token/ HTTP/1.1" 200 483
+"POST /api/token/ HTTP/1.1" 200 483
+"POST /api/token/v1/topics/subscribe/ HTTP/1.1" 201 83
+"POST /api/token/v1/topics/producer/push/logs/ HTTP/1.1" 201 43
+"POST /api/token/ HTTP/1.1" 200 483
+Unauthorized: /api/token/v1/topics/subscribe/
+"POST /api/token/v1/topics/subscribe/ HTTP/1.1" 401 183
+"POST /api/token/ HTTP/1.1" 200 483
+"POST /api/token/v1/topics/subscribe/ HTTP/1.1" 201 83
+"POST /api/token/v1/topics/producer/push/logs/ HTTP/1.1" 201 43
+"POST /api/token/v1/topics/producer/push/logs/ HTTP/1.1" 201 43
+"POST /api/token/v1/topics/producer/push/logs/ HTTP/1.1" 201 43
+"POST /api/token/ HTTP/1.1" 200 483
+Unauthorized: /api/token/v1/topics/producer/push/logs/
+"POST /api/token/v1/topics/producer/push/logs/ HTTP/1.1" 401 183
+"POST /api/token/v1/topics/producer/push/logs/ HTTP/1.1" 201 43
+"POST /api/token/ HTTP/1.1" 200 483
+"POST /api/token/v1/topics/producer/push/logs/ HTTP/1.1" 201 43
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /api/token/ HTTP/1.1" 200 483
+Unauthorized: /api/token/v1/topics/subscribe/
+"POST /api/token/v1/topics/subscribe/ HTTP/1.1" 401 183
+"POST /api/token/ HTTP/1.1" 200 483
+"POST /api/token/v1/topics/subscribe/ HTTP/1.1" 201 83
+"POST /api/token/v1/topics/producer/push/logs/ HTTP/1.1" 201 43
+"POST /api/token/v1/topics/subscribe/ HTTP/1.1" 201 83
+"POST /api/token/v1/topics/producer/push/logs/ HTTP/1.1" 201 43
+"POST /api/token/v1/topics/subscribe/ HTTP/1.1" 201 83
+"POST /api/token/v1/topics/producer/push/logs/ HTTP/1.1" 201 43
+Watching for file changes with StatReloader
+"POST /api/token/ HTTP/1.1" 200 483
+"POST /api/token/ HTTP/1.1" 200 483
+Watching for file changes with StatReloader
+"POST /api/token/ HTTP/1.1" 200 483
+"POST /api/token/v1/topics/subscribe/ HTTP/1.1" 201 83
+Watching for file changes with StatReloader
+"POST /api/token/ HTTP/1.1" 200 483
+"POST /api/token/v1/topics/subscribe/ HTTP/1.1" 201 83
+"POST /api/token/v1/topics/list/ HTTP/1.1" 201 476
+"POST /api/token/v1/topics/list/ HTTP/1.1" 201 409
+"POST /api/token/v1/topics/producer/push/logs/ HTTP/1.1" 201 43
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\Kafka.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\Kafka.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\splunk_http_event_collector.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"POST /api/token/ HTTP/1.1" 200 483
+"POST /api/token/ HTTP/1.1" 200 483
+"POST /api/token/v1/topics/list/ HTTP/1.1" 201 409
+"POST /api/token/v1/topics/list/ HTTP/1.1" 201 476
+"POST /api/token/v1/topics/list/ HTTP/1.1" 201 409
+"POST /api/token/v1/topics/subscribe/ HTTP/1.1" 201 83
+"POST /api/token/ HTTP/1.1" 200 483
+Unauthorized: /api/token/v1/topics/producer/push/logs/
+"POST /api/token/v1/topics/producer/push/logs/ HTTP/1.1" 401 183
+"POST /api/token/v1/topics/producer/push/logs/ HTTP/1.1" 201 43
+Unauthorized: /api/token/v1/topics/producer/push/logs/
+"POST /api/token/v1/topics/producer/push/logs/ HTTP/1.1" 401 183
+"POST /api/token/ HTTP/1.1" 200 483
+"POST /api/token/v1/topics/producer/push/logs/ HTTP/1.1" 201 43
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\Kafka.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /api/token/ HTTP/1.1" 200 483
+"POST /api/token/v1/topics/subscribe/ HTTP/1.1" 201 83
+"POST /api/token/v1/topics/subscribe/ HTTP/1.1" 201 83
+"POST /api/token/v1/topics/producer/push/logs/ HTTP/1.1" 201 43
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\Kafka.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 179
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 179
+Watching for file changes with StatReloader
+"POST /api/token/ HTTP/1.1" 200 483
+"POST /api/token/ HTTP/1.1" 200 483
+"POST /api/token/v1/topics/subscribe/ HTTP/1.1" 201 83
+"POST /api/token/v1/topics/producer/push/logs/ HTTP/1.1" 201 43
+"POST /api/token/v1/topics/producer/push/logs/ HTTP/1.1" 201 43
+Watching for file changes with StatReloader
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\Kafka.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /api/token/ HTTP/1.1" 200 483
+"POST /api/token/v1/topics/subscribe/ HTTP/1.1" 201 83
+"POST /api/token/v1/topics/producer/push/logs/ HTTP/1.1" 201 43
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\splunk_http_event_collector.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"POST /api/token/ HTTP/1.1" 200 483
+"POST /api/token/v1/topics/subscribe/ HTTP/1.1" 201 83
+"POST /api/token/v1/topics/producer/push/logs/ HTTP/1.1" 201 43
+"POST /api/token/v1/topics/producer/push/logs/ HTTP/1.1" 201 43
+C:\Users\Vishal\Desktop\Personal\pythonProject\kafkaWrapper\wrapper\Kafka.py changed, reloading.
+Watching for file changes with StatReloader

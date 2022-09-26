@@ -1,0 +1,662 @@
+2022-09-23 01:00:03,376 - Kafka-Service.log - INFO - Done 
+2022-09-23 01:00:34,289 - Kafka-Service.log - INFO - Producer -['52.41.31.91:29092'] 
+2022-09-23 01:00:34,289 - Kafka-Service.log - INFO - Producer -['52.41.31.91:29092'] 
+2022-09-23 01:00:35,007 - Kafka-Service.log - INFO - Consumer 
+2022-09-23 01:00:35,007 - Kafka-Service.log - INFO - Consumer 
+2022-09-23 01:00:35,724 - Kafka-Service.log - INFO - Done 
+2022-09-23 01:00:35,724 - Kafka-Service.log - INFO - Done 
+2022-09-23 01:00:35,728 - Kafka-Service.log - INFO - Pushed the logs
+2022-09-23 01:00:35,728 - Kafka-Service.log - INFO - Pushed the logs
+2022-09-23 01:01:17,047 - Kafka-Service.log - INFO - Consumer 
+2022-09-23 01:01:17,047 - Kafka-Service.log - INFO - Consumer 
+2022-09-23 01:01:17,047 - Kafka-Service.log - INFO - Consumer 
+2022-09-23 01:01:17,786 - Kafka-Service.log - INFO - Done 
+2022-09-23 01:01:17,786 - Kafka-Service.log - INFO - Done 
+2022-09-23 01:01:17,786 - Kafka-Service.log - INFO - Done 
+2022-09-23 01:01:17,787 - Kafka-Service.log - INFO - Func [event_flush] Started
+2022-09-23 01:01:17,787 - Kafka-Service.log - INFO - Func [event_flush] Started
+2022-09-23 01:01:17,787 - Kafka-Service.log - INFO - Func [event_flush] Started
+2022-09-23 01:01:17,788 - Kafka-Service.log - INFO - Splunk Constructor Initiated
+2022-09-23 01:01:17,788 - Kafka-Service.log - INFO - Splunk Constructor Initiated
+2022-09-23 01:01:17,788 - Kafka-Service.log - INFO - Splunk Constructor Initiated
+2022-09-23 01:01:17,789 - Kafka-Service.log - INFO - Events received on thread. Sending to Splunk.
+2022-09-23 01:01:17,789 - Kafka-Service.log - INFO - Events received on thread. Sending to Splunk.
+2022-09-23 01:01:17,790 - Kafka-Service.log - INFO - Events received on thread. Sending to Splunk.
+2022-09-23 01:01:17,789 - Kafka-Service.log - INFO - Events received on thread. Sending to Splunk.
+2022-09-23 01:01:17,790 - Kafka-Service.log - INFO - Events received on thread. Sending to Splunk.
+2022-09-23 01:01:17,790 - Kafka-Service.log - INFO - Events received on thread. Sending to Splunk.
+2022-09-23 01:01:17,790 - Kafka-Service.log - INFO - Events received on thread. Sending to Splunk.
+2022-09-23 01:01:17,790 - Kafka-Service.log - INFO - Events received on thread. Sending to Splunk.
+2022-09-23 01:01:17,790 - Kafka-Service.log - INFO - Events received on thread. Sending to Splunk.
+2022-09-23 01:01:17,790 - Kafka-Service.log - INFO - Events received on thread. Sending to Splunk.
+2022-09-23 01:01:17,790 - Kafka-Service.log - INFO - Events received on thread. Sending to Splunk.
+2022-09-23 01:01:17,791 - Kafka-Service.log - INFO - Events received on thread. Sending to Splunk.
+2022-09-23 01:01:17,790 - Kafka-Service.log - INFO - Events received on thread. Sending to Splunk.
+2022-09-23 01:01:17,791 - Kafka-Service.log - INFO - Events received on thread. Sending to Splunk.
+2022-09-23 01:01:17,791 - Kafka-Service.log - INFO - Events received on thread. Sending to Splunk.
+2022-09-23 01:01:17,791 - Kafka-Service.log - INFO - Events received on thread. Sending to Splunk.
+2022-09-23 01:01:17,791 - Kafka-Service.log - INFO - Events received on thread. Sending to Splunk.
+2022-09-23 01:01:17,792 - Kafka-Service.log - INFO - Events received on thread. Sending to Splunk.
+2022-09-23 01:01:17,792 - Kafka-Service.log - INFO - Events received on thread. Sending to Splunk.
+2022-09-23 01:01:17,791 - Kafka-Service.log - INFO - Events received on thread. Sending to Splunk.
+2022-09-23 01:01:17,792 - Kafka-Service.log - INFO - Events received on thread. Sending to Splunk.
+2022-09-23 01:01:17,792 - Kafka-Service.log - INFO - Events received on thread. Sending to Splunk.
+2022-09-23 01:01:17,792 - Kafka-Service.log - INFO - Events received on thread. Sending to Splunk.
+2022-09-23 01:01:17,794 - Kafka-Service.log - INFO - Events received on thread. Sending to Splunk.
+2022-09-23 01:01:17,792 - Kafka-Service.log - INFO - Events received on thread. Sending to Splunk.
+2022-09-23 01:01:17,794 - Kafka-Service.log - INFO - Events received on thread. Sending to Splunk.
+2022-09-23 01:01:17,794 - Kafka-Service.log - INFO - Events received on thread. Sending to Splunk.
+2022-09-23 01:01:17,794 - Kafka-Service.log - INFO - Events received on thread. Sending to Splunk.
+2022-09-23 01:01:17,794 - Kafka-Service.log - INFO - HEC Instance Ready: server_uri=https://52.41.31.91:8088/services/collector/event
+2022-09-23 01:01:17,794 - Kafka-Service.log - INFO - Events received on thread. Sending to Splunk.
+2022-09-23 01:01:17,794 - Kafka-Service.log - INFO - HEC Instance Ready: server_uri=https://52.41.31.91:8088/services/collector/event
+2022-09-23 01:01:17,794 - Kafka-Service.log - INFO - HEC Instance Ready: server_uri=https://52.41.31.91:8088/services/collector/event
+2022-09-23 01:01:17,796 - Kafka-Service.log - INFO - Checking HEC Server URI reachability.
+2022-09-23 01:01:17,796 - Kafka-Service.log - INFO - Checking HEC Server URI reachability.
+2022-09-23 01:01:17,796 - Kafka-Service.log - INFO - Checking HEC Server URI reachability.
+2022-09-23 01:01:18,986 - Kafka-Service.log - INFO - Splunk Server URI is reachable.
+2022-09-23 01:01:18,986 - Kafka-Service.log - INFO - Splunk Server URI is reachable.
+2022-09-23 01:01:18,986 - Kafka-Service.log - INFO - Splunk Server URI is reachable.
+2022-09-23 01:01:18,986 - Kafka-Service.log - INFO - Connectivity Check: http_status_code=400 http_message={"text":"No data","code":5}
+2022-09-23 01:01:18,986 - Kafka-Service.log - INFO - Connectivity Check: http_status_code=400 http_message={"text":"No data","code":5}
+2022-09-23 01:01:18,986 - Kafka-Service.log - INFO - Connectivity Check: http_status_code=400 http_message={"text":"No data","code":5}
+2022-09-23 01:01:18,989 - Kafka-Service.log - INFO - Https Event Collector Details [{'index': 'history', 'sourcetype': 'fluentd', 'source': 'kafka-fluentd', 'host': 'SEZLAP-13959'}]
+2022-09-23 01:01:18,989 - Kafka-Service.log - INFO - Https Event Collector Details [{'index': 'history', 'sourcetype': 'fluentd', 'source': 'kafka-fluentd', 'host': 'SEZLAP-13959'}]
+2022-09-23 01:01:18,989 - Kafka-Service.log - INFO - Https Event Collector Details [{'index': 'history', 'sourcetype': 'fluentd', 'source': 'kafka-fluentd', 'host': 'SEZLAP-13959'}]
+2022-09-23 01:01:19,062 - Kafka-Service.log - INFO - task.status Success
+2022-09-23 01:01:19,062 - Kafka-Service.log - INFO - task.status Success
+2022-09-23 01:01:19,062 - Kafka-Service.log - INFO - task.status Success
+2022-09-23 01:02:52,001 - Kafka-Service.log - INFO - Consumer 
+2022-09-23 01:02:52,001 - Kafka-Service.log - INFO - Consumer 
+2022-09-23 01:02:52,001 - Kafka-Service.log - INFO - Consumer 
+2022-09-23 01:02:52,001 - Kafka-Service.log - INFO - Consumer 
+2022-09-23 01:02:52,717 - Kafka-Service.log - INFO - Done 
+2022-09-23 01:02:52,717 - Kafka-Service.log - INFO - Done 
+2022-09-23 01:02:52,717 - Kafka-Service.log - INFO - Done 
+2022-09-23 01:02:52,717 - Kafka-Service.log - INFO - Done 
+2022-09-23 01:02:52,718 - Kafka-Service.log - INFO - Func [event_flush] Started
+2022-09-23 01:02:52,718 - Kafka-Service.log - INFO - Func [event_flush] Started
+2022-09-23 01:02:52,718 - Kafka-Service.log - INFO - Func [event_flush] Started
+2022-09-23 01:02:52,718 - Kafka-Service.log - INFO - Func [event_flush] Started
+2022-09-23 01:02:52,720 - Kafka-Service.log - INFO - Splunk Constructor Initiated
+2022-09-23 01:02:52,720 - Kafka-Service.log - INFO - Splunk Constructor Initiated
+2022-09-23 01:02:52,720 - Kafka-Service.log - INFO - Splunk Constructor Initiated
+2022-09-23 01:02:52,720 - Kafka-Service.log - INFO - Splunk Constructor Initiated
+2022-09-23 01:02:52,723 - Kafka-Service.log - INFO - Events received on thread. Sending to Splunk.
+2022-09-23 01:02:52,723 - Kafka-Service.log - INFO - Events received on thread. Sending to Splunk.
+2022-09-23 01:02:52,723 - Kafka-Service.log - INFO - Events received on thread. Sending to Splunk.
+2022-09-23 01:02:52,723 - Kafka-Service.log - INFO - Events received on thread. Sending to Splunk.
+2022-09-23 01:02:52,723 - Kafka-Service.log - INFO - Events received on thread. Sending to Splunk.
+2022-09-23 01:02:52,723 - Kafka-Service.log - INFO - Events received on thread. Sending to Splunk.
+2022-09-23 01:02:52,724 - Kafka-Service.log - INFO - Events received on thread. Sending to Splunk.
+2022-09-23 01:02:52,724 - Kafka-Service.log - INFO - Events received on thread. Sending to Splunk.
+2022-09-23 01:02:52,723 - Kafka-Service.log - INFO - Events received on thread. Sending to Splunk.
+2022-09-23 01:02:52,725 - Kafka-Service.log - INFO - Events received on thread. Sending to Splunk.
+2022-09-23 01:02:52,724 - Kafka-Service.log - INFO - Events received on thread. Sending to Splunk.
+2022-09-23 01:02:52,723 - Kafka-Service.log - INFO - Events received on thread. Sending to Splunk.
+2022-09-23 01:02:52,724 - Kafka-Service.log - INFO - Events received on thread. Sending to Splunk.
+2022-09-23 01:02:52,724 - Kafka-Service.log - INFO - Events received on thread. Sending to Splunk.
+2022-09-23 01:02:52,725 - Kafka-Service.log - INFO - Events received on thread. Sending to Splunk.
+2022-09-23 01:02:52,726 - Kafka-Service.log - INFO - Events received on thread. Sending to Splunk.
+2022-09-23 01:02:52,724 - Kafka-Service.log - INFO - Events received on thread. Sending to Splunk.
+2022-09-23 01:02:52,724 - Kafka-Service.log - INFO - Events received on thread. Sending to Splunk.
+2022-09-23 01:02:52,724 - Kafka-Service.log - INFO - Events received on thread. Sending to Splunk.
+2022-09-23 01:02:52,725 - Kafka-Service.log - INFO - Events received on thread. Sending to Splunk.
+2022-09-23 01:02:52,726 - Kafka-Service.log - INFO - Events received on thread. Sending to Splunk.
+2022-09-23 01:02:52,729 - Kafka-Service.log - INFO - Events received on thread. Sending to Splunk.
+2022-09-23 01:02:52,725 - Kafka-Service.log - INFO - Events received on thread. Sending to Splunk.
+2022-09-23 01:02:52,726 - Kafka-Service.log - INFO - Events received on thread. Sending to Splunk.
+2022-09-23 01:02:52,729 - Kafka-Service.log - INFO - Events received on thread. Sending to Splunk.
+2022-09-23 01:02:52,726 - Kafka-Service.log - INFO - Events received on thread. Sending to Splunk.
+2022-09-23 01:02:52,729 - Kafka-Service.log - INFO - Events received on thread. Sending to Splunk.
+2022-09-23 01:02:52,729 - Kafka-Service.log - INFO - Events received on thread. Sending to Splunk.
+2022-09-23 01:02:52,729 - Kafka-Service.log - INFO - Events received on thread. Sending to Splunk.
+2022-09-23 01:02:52,729 - Kafka-Service.log - INFO - Events received on thread. Sending to Splunk.
+2022-09-23 01:02:52,731 - Kafka-Service.log - INFO - Events received on thread. Sending to Splunk.
+2022-09-23 01:02:52,729 - Kafka-Service.log - INFO - Events received on thread. Sending to Splunk.
+2022-09-23 01:02:52,729 - Kafka-Service.log - INFO - Events received on thread. Sending to Splunk.
+2022-09-23 01:02:52,731 - Kafka-Service.log - INFO - Events received on thread. Sending to Splunk.
+2022-09-23 01:02:52,731 - Kafka-Service.log - INFO - Events received on thread. Sending to Splunk.
+2022-09-23 01:02:52,731 - Kafka-Service.log - INFO - Events received on thread. Sending to Splunk.
+2022-09-23 01:02:52,732 - Kafka-Service.log - INFO - Events received on thread. Sending to Splunk.
+2022-09-23 01:02:52,732 - Kafka-Service.log - INFO - Events received on thread. Sending to Splunk.
+2022-09-23 01:02:52,732 - Kafka-Service.log - INFO - HEC Instance Ready: server_uri=https://52.41.31.91:8088/services/collector/event
+2022-09-23 01:02:52,732 - Kafka-Service.log - INFO - Events received on thread. Sending to Splunk.
+2022-09-23 01:02:52,732 - Kafka-Service.log - INFO - HEC Instance Ready: server_uri=https://52.41.31.91:8088/services/collector/event
+2022-09-23 01:02:52,732 - Kafka-Service.log - INFO - Events received on thread. Sending to Splunk.
+2022-09-23 01:02:52,732 - Kafka-Service.log - INFO - HEC Instance Ready: server_uri=https://52.41.31.91:8088/services/collector/event
+2022-09-23 01:02:52,732 - Kafka-Service.log - INFO - HEC Instance Ready: server_uri=https://52.41.31.91:8088/services/collector/event
+2022-09-23 01:02:52,735 - Kafka-Service.log - INFO - Checking HEC Server URI reachability.
+2022-09-23 01:02:52,735 - Kafka-Service.log - INFO - Checking HEC Server URI reachability.
+2022-09-23 01:02:52,735 - Kafka-Service.log - INFO - Checking HEC Server URI reachability.
+2022-09-23 01:02:52,735 - Kafka-Service.log - INFO - Checking HEC Server URI reachability.
+2022-09-23 01:02:54,045 - Kafka-Service.log - INFO - Splunk Server URI is reachable.
+2022-09-23 01:02:54,045 - Kafka-Service.log - INFO - Splunk Server URI is reachable.
+2022-09-23 01:02:54,045 - Kafka-Service.log - INFO - Splunk Server URI is reachable.
+2022-09-23 01:02:54,045 - Kafka-Service.log - INFO - Splunk Server URI is reachable.
+2022-09-23 01:02:54,046 - Kafka-Service.log - INFO - Connectivity Check: http_status_code=400 http_message={"text":"No data","code":5}
+2022-09-23 01:02:54,046 - Kafka-Service.log - INFO - Connectivity Check: http_status_code=400 http_message={"text":"No data","code":5}
+2022-09-23 01:02:54,046 - Kafka-Service.log - INFO - Connectivity Check: http_status_code=400 http_message={"text":"No data","code":5}
+2022-09-23 01:02:54,046 - Kafka-Service.log - INFO - Connectivity Check: http_status_code=400 http_message={"text":"No data","code":5}
+2022-09-23 01:02:54,049 - Kafka-Service.log - INFO - Https Event Collector Details [{'index': 'kafka-http', 'sourcetype': 'fluentd', 'source': 'kafka-fluentd', 'host': 'SEZLAP-13959'}]
+2022-09-23 01:02:54,049 - Kafka-Service.log - INFO - Https Event Collector Details [{'index': 'kafka-http', 'sourcetype': 'fluentd', 'source': 'kafka-fluentd', 'host': 'SEZLAP-13959'}]
+2022-09-23 01:02:54,049 - Kafka-Service.log - INFO - Https Event Collector Details [{'index': 'kafka-http', 'sourcetype': 'fluentd', 'source': 'kafka-fluentd', 'host': 'SEZLAP-13959'}]
+2022-09-23 01:02:54,049 - Kafka-Service.log - INFO - Https Event Collector Details [{'index': 'kafka-http', 'sourcetype': 'fluentd', 'source': 'kafka-fluentd', 'host': 'SEZLAP-13959'}]
+2022-09-23 01:02:54,116 - Kafka-Service.log - INFO - task.status Success
+2022-09-23 01:02:54,116 - Kafka-Service.log - INFO - task.status Success
+2022-09-23 01:02:54,116 - Kafka-Service.log - INFO - task.status Success
+2022-09-23 01:02:54,116 - Kafka-Service.log - INFO - task.status Success
+2022-09-23 01:03:33,235 - Kafka-Service.log - INFO - Producer -['52.41.31.91:39092'] 
+2022-09-23 01:03:33,235 - Kafka-Service.log - INFO - Producer -['52.41.31.91:39092'] 
+2022-09-23 01:03:33,235 - Kafka-Service.log - INFO - Producer -['52.41.31.91:39092'] 
+2022-09-23 01:03:33,235 - Kafka-Service.log - INFO - Producer -['52.41.31.91:39092'] 
+2022-09-23 01:03:33,235 - Kafka-Service.log - INFO - Producer -['52.41.31.91:39092'] 
+2022-09-23 01:03:33,959 - Kafka-Service.log - INFO - Consumer 
+2022-09-23 01:03:33,959 - Kafka-Service.log - INFO - Consumer 
+2022-09-23 01:03:33,959 - Kafka-Service.log - INFO - Consumer 
+2022-09-23 01:03:33,959 - Kafka-Service.log - INFO - Consumer 
+2022-09-23 01:03:33,959 - Kafka-Service.log - INFO - Consumer 
+2022-09-23 01:03:34,728 - Kafka-Service.log - INFO - Done 
+2022-09-23 01:03:34,728 - Kafka-Service.log - INFO - Done 
+2022-09-23 01:03:34,728 - Kafka-Service.log - INFO - Done 
+2022-09-23 01:03:34,728 - Kafka-Service.log - INFO - Done 
+2022-09-23 01:03:34,728 - Kafka-Service.log - INFO - Done 
+2022-09-23 01:03:34,768 - Kafka-Service.log - INFO - Pushed the logs
+2022-09-23 01:03:34,768 - Kafka-Service.log - INFO - Pushed the logs
+2022-09-23 01:03:34,768 - Kafka-Service.log - INFO - Pushed the logs
+2022-09-23 01:03:34,768 - Kafka-Service.log - INFO - Pushed the logs
+2022-09-23 01:03:34,768 - Kafka-Service.log - INFO - Pushed the logs
+2022-09-23 01:09:47,163 - Kafka-Service.log - INFO - Func [event_flush] Started
+2022-09-23 01:09:47,164 - Kafka-Service.log - INFO - Splunk Constructor Initiated
+2022-09-23 01:09:47,165 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 01:09:47,166 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 01:09:47,167 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 01:09:47,167 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 01:09:47,168 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 01:09:47,169 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 01:09:47,170 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 01:09:47,170 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 01:09:47,170 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 01:09:47,171 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 01:09:47,172 - Kafka-Service.log - INFO - HEC Instance Ready: server_uri=https://52.41.31.91:8088/services/collector/event
+2022-09-23 01:09:47,172 - Kafka-Service.log - INFO - Checking HEC Server URI reachability.
+2022-09-23 01:09:48,466 - Kafka-Service.log - INFO - Splunk Server URI is reachable.
+2022-09-23 01:09:48,467 - Kafka-Service.log - WARNING - Connectivity Check: http_status_code=400 http_message={"text":"No data","code":5}
+2022-09-23 01:09:48,469 - Kafka-Service.log - INFO - Https Event Collector Details [{'index': 'kafka-http', 'sourcetype': 'fluentd', 'source': 'kafka-fluentd', 'host': 'SEZLAP-13959'}]
+2022-09-23 01:09:48,536 - Kafka-Service.log - INFO - task.status Success
+2022-09-23 01:14:12,371 - Kafka-Service.log - INFO - Func [event_flush] Started
+2022-09-23 01:14:12,371 - Kafka-Service.log - INFO - Splunk Constructor Initiated
+2022-09-23 01:14:12,372 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 01:14:12,373 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 01:14:12,373 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 01:14:12,374 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 01:14:12,374 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 01:14:12,375 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 01:14:12,377 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 01:14:12,378 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 01:14:12,378 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 01:14:12,379 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 01:14:12,379 - Kafka-Service.log - INFO - HEC Instance Ready: server_uri=https://52.41.31.91:8088/services/collector/event
+2022-09-23 01:14:12,380 - Kafka-Service.log - INFO - Checking HEC Server URI reachability.
+2022-09-23 01:14:13,680 - Kafka-Service.log - INFO - Splunk Server URI is reachable.
+2022-09-23 01:14:13,681 - Kafka-Service.log - WARNING - Connectivity Check: http_status_code=400 http_message={"text":"No data","code":5}
+2022-09-23 01:14:13,683 - Kafka-Service.log - INFO - Https Event Collector Details [{'index': 'kafka-http', 'sourcetype': 'fluentd', 'source': 'kafka-fluentd', 'host': 'SEZLAP-13959'}]
+2022-09-23 01:52:33,434 - Kafka-Service.log - INFO - Func [event_flush] Started
+2022-09-23 01:52:33,435 - Kafka-Service.log - INFO - Splunk Constructor Initiated
+2022-09-23 01:52:33,436 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 01:52:33,436 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 01:52:33,437 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 01:52:33,438 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 01:52:33,439 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 01:52:33,440 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 01:52:33,440 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 01:52:33,441 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 01:52:33,442 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 01:52:33,442 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 01:52:33,442 - Kafka-Service.log - INFO - HEC Instance Ready: server_uri=https://52.41.31.91:8088/services/collector/event
+2022-09-23 01:52:33,443 - Kafka-Service.log - INFO - Checking HEC Server URI reachability.
+2022-09-23 01:52:34,661 - Kafka-Service.log - INFO - Splunk Server URI is reachable.
+2022-09-23 01:52:34,662 - Kafka-Service.log - WARNING - Connectivity Check: http_status_code=400 http_message={"text":"No data","code":5}
+2022-09-23 01:52:34,665 - Kafka-Service.log - INFO - Https Event Collector Details [{'index': 'order-billing', 'sourcetype': 'dizzion', 'source': 'demo', 'host': 'SEZLAP-13959'}]
+2022-09-23 11:40:13,225 - Kafka-Service.log - INFO - Func [event_flush] Started
+2022-09-23 11:40:13,225 - Kafka-Service.log - INFO - Splunk Constructor Initiated
+2022-09-23 11:40:13,226 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 11:40:13,226 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 11:40:13,227 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 11:40:13,227 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 11:40:13,227 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 11:40:13,228 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 11:40:13,229 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 11:40:13,229 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 11:40:13,229 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 11:40:13,230 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 11:40:13,230 - Kafka-Service.log - INFO - HEC Instance Ready: server_uri=https://52.41.31.91:8088/services/collector/event
+2022-09-23 11:40:13,231 - Kafka-Service.log - INFO - Checking HEC Server URI reachability.
+2022-09-23 11:40:14,449 - Kafka-Service.log - INFO - Splunk Server URI is reachable.
+2022-09-23 11:40:14,450 - Kafka-Service.log - WARNING - Connectivity Check: http_status_code=400 http_message={"text":"No data","code":5}
+2022-09-23 11:40:14,451 - Kafka-Service.log - INFO - Https Event Collector Details [{'index': 'kafka-http', 'sourcetype': 'fluentd', 'source': 'kafka-fluentd', 'host': 'SEZLAP-13959'}]
+2022-09-23 14:38:10,822 - Kafka-Service.log - INFO - Func [event_flush] Started
+2022-09-23 14:38:10,822 - Kafka-Service.log - INFO - Func [event_flush] Started
+2022-09-23 14:38:10,822 - Kafka-Service.log - INFO - Func [event_flush] Started
+2022-09-23 14:38:10,822 - Kafka-Service.log - INFO - Splunk Constructor Initiated
+2022-09-23 14:38:10,822 - Kafka-Service.log - INFO - Splunk Constructor Initiated
+2022-09-23 14:38:10,822 - Kafka-Service.log - INFO - Splunk Constructor Initiated
+2022-09-23 14:38:10,823 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 14:38:10,823 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 14:38:10,823 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 14:38:10,823 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 14:38:10,823 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 14:38:10,823 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 14:38:10,823 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 14:38:10,823 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 14:38:10,824 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 14:38:10,823 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 14:38:10,824 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 14:38:10,824 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 14:38:10,824 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 14:38:10,824 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 14:38:10,824 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 14:38:10,824 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 14:38:10,824 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 14:38:10,825 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 14:38:10,824 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 14:38:10,825 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 14:38:10,825 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 14:38:10,825 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 14:38:10,825 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 14:38:10,825 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 14:38:10,825 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 14:38:10,825 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 14:38:10,826 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 14:38:10,825 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 14:38:10,826 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 14:38:10,826 - Kafka-Service.log - INFO - HEC Instance Ready: server_uri=https://52.41.31.91:8088/services/collector/event
+2022-09-23 14:38:10,826 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 14:38:10,826 - Kafka-Service.log - INFO - HEC Instance Ready: server_uri=https://52.41.31.91:8088/services/collector/event
+2022-09-23 14:38:10,826 - Kafka-Service.log - INFO - HEC Instance Ready: server_uri=https://52.41.31.91:8088/services/collector/event
+2022-09-23 14:38:10,826 - Kafka-Service.log - INFO - Checking HEC Server URI reachability.
+2022-09-23 14:38:10,826 - Kafka-Service.log - INFO - Checking HEC Server URI reachability.
+2022-09-23 14:38:10,826 - Kafka-Service.log - INFO - Checking HEC Server URI reachability.
+2022-09-23 14:38:12,031 - Kafka-Service.log - INFO - Splunk Server URI is reachable.
+2022-09-23 14:38:12,031 - Kafka-Service.log - INFO - Splunk Server URI is reachable.
+2022-09-23 14:38:12,031 - Kafka-Service.log - INFO - Splunk Server URI is reachable.
+2022-09-23 14:38:12,032 - Kafka-Service.log - WARNING - Connectivity Check: http_status_code=400 http_message={"text":"No data","code":5}
+2022-09-23 14:38:12,032 - Kafka-Service.log - WARNING - Connectivity Check: http_status_code=400 http_message={"text":"No data","code":5}
+2022-09-23 14:38:12,032 - Kafka-Service.log - WARNING - Connectivity Check: http_status_code=400 http_message={"text":"No data","code":5}
+2022-09-23 14:38:12,034 - Kafka-Service.log - INFO - Https Event Collector Details [{'index': 'kafka-http', 'sourcetype': 'fluentd', 'source': 'kafka-fluentd', 'host': 'SEZLAP-13959'}]
+2022-09-23 14:38:12,034 - Kafka-Service.log - INFO - Https Event Collector Details [{'index': 'kafka-http', 'sourcetype': 'fluentd', 'source': 'kafka-fluentd', 'host': 'SEZLAP-13959'}]
+2022-09-23 14:38:12,034 - Kafka-Service.log - INFO - Https Event Collector Details [{'index': 'kafka-http', 'sourcetype': 'fluentd', 'source': 'kafka-fluentd', 'host': 'SEZLAP-13959'}]
+2022-09-23 15:35:57,302 - Kafka-Service.log - INFO - Func [event_flush] Started
+2022-09-23 15:35:57,303 - Kafka-Service.log - INFO - Splunk Constructor Initiated
+2022-09-23 15:35:57,304 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:35:57,304 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:35:57,304 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:35:57,305 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:35:57,306 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:35:57,306 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:35:57,306 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:35:57,307 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:35:57,307 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:35:57,308 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:35:57,308 - Kafka-Service.log - INFO - HEC Instance Ready: server_uri=https://52.41.31.91:8088/services/collector/event
+2022-09-23 15:35:57,308 - Kafka-Service.log - INFO - Checking HEC Server URI reachability.
+2022-09-23 15:35:58,511 - Kafka-Service.log - INFO - Splunk Server URI is reachable.
+2022-09-23 15:35:58,511 - Kafka-Service.log - WARNING - Connectivity Check: http_status_code=400 http_message={"text":"No data","code":5}
+2022-09-23 15:35:58,512 - Kafka-Service.log - INFO - Https Event Collector Details [{'index': 'main', 'sourcetype': 'Trail', 'source': 'datacenters', 'host': 'SEZLAP-13959'}]
+2022-09-23 15:38:09,673 - Kafka-Service.log - INFO - Func [event_flush] Started
+2022-09-23 15:38:09,673 - Kafka-Service.log - INFO - Func [event_flush] Started
+2022-09-23 15:38:09,673 - Kafka-Service.log - INFO - Func [event_flush] Started
+2022-09-23 15:38:09,673 - Kafka-Service.log - INFO - Splunk Constructor Initiated
+2022-09-23 15:38:09,673 - Kafka-Service.log - INFO - Splunk Constructor Initiated
+2022-09-23 15:38:09,673 - Kafka-Service.log - INFO - Splunk Constructor Initiated
+2022-09-23 15:38:09,674 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:38:09,674 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:38:09,674 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:38:09,674 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:38:09,674 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:38:09,674 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:38:09,676 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:38:09,676 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:38:09,676 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:38:09,676 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:38:09,676 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:38:09,677 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:38:09,676 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:38:09,677 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:38:09,677 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:38:09,677 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:38:09,677 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:38:09,677 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:38:09,678 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:38:09,678 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:38:09,678 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:38:09,678 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:38:09,678 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:38:09,679 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:38:09,678 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:38:09,679 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:38:09,679 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:38:09,679 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:38:09,679 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:38:09,680 - Kafka-Service.log - INFO - HEC Instance Ready: server_uri=https://52.41.31.91:8088/services/collector/event
+2022-09-23 15:38:09,679 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:38:09,680 - Kafka-Service.log - INFO - HEC Instance Ready: server_uri=https://52.41.31.91:8088/services/collector/event
+2022-09-23 15:38:09,680 - Kafka-Service.log - INFO - HEC Instance Ready: server_uri=https://52.41.31.91:8088/services/collector/event
+2022-09-23 15:38:09,680 - Kafka-Service.log - INFO - Checking HEC Server URI reachability.
+2022-09-23 15:38:09,680 - Kafka-Service.log - INFO - Checking HEC Server URI reachability.
+2022-09-23 15:38:09,680 - Kafka-Service.log - INFO - Checking HEC Server URI reachability.
+2022-09-23 15:38:10,922 - Kafka-Service.log - INFO - Splunk Server URI is reachable.
+2022-09-23 15:38:10,922 - Kafka-Service.log - INFO - Splunk Server URI is reachable.
+2022-09-23 15:38:10,922 - Kafka-Service.log - INFO - Splunk Server URI is reachable.
+2022-09-23 15:38:10,923 - Kafka-Service.log - WARNING - Connectivity Check: http_status_code=400 http_message={"text":"No data","code":5}
+2022-09-23 15:38:10,923 - Kafka-Service.log - WARNING - Connectivity Check: http_status_code=400 http_message={"text":"No data","code":5}
+2022-09-23 15:38:10,923 - Kafka-Service.log - WARNING - Connectivity Check: http_status_code=400 http_message={"text":"No data","code":5}
+2022-09-23 15:38:10,925 - Kafka-Service.log - INFO - Https Event Collector Details [{'index': 'main', 'sourcetype': 'Trail', 'source': 'http:demo', 'host': 'SEZLAP-13959'}]
+2022-09-23 15:38:10,925 - Kafka-Service.log - INFO - Https Event Collector Details [{'index': 'main', 'sourcetype': 'Trail', 'source': 'http:demo', 'host': 'SEZLAP-13959'}]
+2022-09-23 15:38:10,925 - Kafka-Service.log - INFO - Https Event Collector Details [{'index': 'main', 'sourcetype': 'Trail', 'source': 'http:demo', 'host': 'SEZLAP-13959'}]
+2022-09-23 15:40:01,513 - Kafka-Service.log - INFO - Func [event_flush] Started
+2022-09-23 15:40:01,513 - Kafka-Service.log - INFO - Func [event_flush] Started
+2022-09-23 15:40:01,513 - Kafka-Service.log - INFO - Func [event_flush] Started
+2022-09-23 15:40:01,513 - Kafka-Service.log - INFO - Func [event_flush] Started
+2022-09-23 15:40:01,513 - Kafka-Service.log - INFO - Func [event_flush] Started
+2022-09-23 15:40:01,513 - Kafka-Service.log - INFO - Splunk Constructor Initiated
+2022-09-23 15:40:01,513 - Kafka-Service.log - INFO - Splunk Constructor Initiated
+2022-09-23 15:40:01,513 - Kafka-Service.log - INFO - Splunk Constructor Initiated
+2022-09-23 15:40:01,513 - Kafka-Service.log - INFO - Splunk Constructor Initiated
+2022-09-23 15:40:01,513 - Kafka-Service.log - INFO - Splunk Constructor Initiated
+2022-09-23 15:40:01,514 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:40:01,514 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:40:01,514 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:40:01,514 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:40:01,514 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:40:01,515 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:40:01,515 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:40:01,515 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:40:01,515 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:40:01,515 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:40:01,515 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:40:01,516 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:40:01,515 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:40:01,515 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:40:01,515 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:40:01,515 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:40:01,516 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:40:01,516 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:40:01,516 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:40:01,516 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:40:01,516 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:40:01,516 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:40:01,516 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:40:01,516 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:40:01,516 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:40:01,516 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:40:01,517 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:40:01,516 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:40:01,516 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:40:01,517 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:40:01,517 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:40:01,516 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:40:01,516 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:40:01,517 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:40:01,517 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:40:01,517 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:40:01,518 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:40:01,517 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:40:01,517 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:40:01,518 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:40:01,517 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:40:01,518 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:40:01,517 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:40:01,518 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:40:01,519 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:40:01,519 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:40:01,518 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:40:01,519 - Kafka-Service.log - INFO - HEC Instance Ready: server_uri=https://52.41.31.91:8088/services/collector/event
+2022-09-23 15:40:01,519 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:40:01,519 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:40:01,519 - Kafka-Service.log - INFO - HEC Instance Ready: server_uri=https://52.41.31.91:8088/services/collector/event
+2022-09-23 15:40:01,519 - Kafka-Service.log - INFO - HEC Instance Ready: server_uri=https://52.41.31.91:8088/services/collector/event
+2022-09-23 15:40:01,519 - Kafka-Service.log - INFO - HEC Instance Ready: server_uri=https://52.41.31.91:8088/services/collector/event
+2022-09-23 15:40:01,519 - Kafka-Service.log - INFO - HEC Instance Ready: server_uri=https://52.41.31.91:8088/services/collector/event
+2022-09-23 15:40:01,522 - Kafka-Service.log - INFO - Checking HEC Server URI reachability.
+2022-09-23 15:40:01,522 - Kafka-Service.log - INFO - Checking HEC Server URI reachability.
+2022-09-23 15:40:01,522 - Kafka-Service.log - INFO - Checking HEC Server URI reachability.
+2022-09-23 15:40:01,522 - Kafka-Service.log - INFO - Checking HEC Server URI reachability.
+2022-09-23 15:40:01,522 - Kafka-Service.log - INFO - Checking HEC Server URI reachability.
+2022-09-23 15:40:02,734 - Kafka-Service.log - INFO - Splunk Server URI is reachable.
+2022-09-23 15:40:02,734 - Kafka-Service.log - INFO - Splunk Server URI is reachable.
+2022-09-23 15:40:02,734 - Kafka-Service.log - INFO - Splunk Server URI is reachable.
+2022-09-23 15:40:02,734 - Kafka-Service.log - INFO - Splunk Server URI is reachable.
+2022-09-23 15:40:02,734 - Kafka-Service.log - INFO - Splunk Server URI is reachable.
+2022-09-23 15:40:02,735 - Kafka-Service.log - WARNING - Connectivity Check: http_status_code=400 http_message={"text":"No data","code":5}
+2022-09-23 15:40:02,735 - Kafka-Service.log - WARNING - Connectivity Check: http_status_code=400 http_message={"text":"No data","code":5}
+2022-09-23 15:40:02,735 - Kafka-Service.log - WARNING - Connectivity Check: http_status_code=400 http_message={"text":"No data","code":5}
+2022-09-23 15:40:02,735 - Kafka-Service.log - WARNING - Connectivity Check: http_status_code=400 http_message={"text":"No data","code":5}
+2022-09-23 15:40:02,735 - Kafka-Service.log - WARNING - Connectivity Check: http_status_code=400 http_message={"text":"No data","code":5}
+2022-09-23 15:40:02,737 - Kafka-Service.log - INFO - Https Event Collector Details [{'index': 'main', 'sourcetype': 'tail', 'source': 'http:demo', 'host': 'SEZLAP-13959'}]
+2022-09-23 15:40:02,737 - Kafka-Service.log - INFO - Https Event Collector Details [{'index': 'main', 'sourcetype': 'tail', 'source': 'http:demo', 'host': 'SEZLAP-13959'}]
+2022-09-23 15:40:02,737 - Kafka-Service.log - INFO - Https Event Collector Details [{'index': 'main', 'sourcetype': 'tail', 'source': 'http:demo', 'host': 'SEZLAP-13959'}]
+2022-09-23 15:40:02,737 - Kafka-Service.log - INFO - Https Event Collector Details [{'index': 'main', 'sourcetype': 'tail', 'source': 'http:demo', 'host': 'SEZLAP-13959'}]
+2022-09-23 15:40:02,737 - Kafka-Service.log - INFO - Https Event Collector Details [{'index': 'main', 'sourcetype': 'tail', 'source': 'http:demo', 'host': 'SEZLAP-13959'}]
+2022-09-23 15:51:18,503 - Kafka-Service.log - INFO - Func [event_flush] Started
+2022-09-23 15:51:18,503 - Kafka-Service.log - INFO - Splunk Constructor Initiated
+2022-09-23 15:51:18,504 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:51:18,505 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:51:18,505 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:51:18,506 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:51:18,506 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:51:18,507 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:51:18,507 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:51:18,507 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:51:18,508 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:51:18,508 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 15:51:18,508 - Kafka-Service.log - INFO - HEC Instance Ready: server_uri=https://52.41.31.91:8088/services/collector/event
+2022-09-23 15:51:18,509 - Kafka-Service.log - INFO - Checking HEC Server URI reachability.
+2022-09-23 15:51:19,679 - Kafka-Service.log - INFO - Splunk Server URI is reachable.
+2022-09-23 15:51:19,679 - Kafka-Service.log - WARNING - Connectivity Check: http_status_code=400 http_message={"text":"No data","code":5}
+2022-09-23 15:51:19,680 - Kafka-Service.log - INFO - Https Event Collector Details [{'index': 'kafka-http', 'sourcetype': 'fluentd', 'source': 'kafka-fluentd', 'host': 'SEZLAP-13959'}]
+2022-09-23 16:12:12,311 - Kafka-Service.log - INFO - Func [event_flush] Started
+2022-09-23 16:12:12,312 - Kafka-Service.log - INFO - Splunk Constructor Initiated
+2022-09-23 16:12:12,312 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 16:12:12,313 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 16:12:12,313 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 16:12:12,313 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 16:12:12,314 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 16:12:12,314 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 16:12:12,315 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 16:12:12,316 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 16:12:12,316 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 16:12:12,316 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-23 16:12:12,316 - Kafka-Service.log - INFO - HEC Instance Ready: server_uri=https://52.41.31.91:8088/services/collector/event
+2022-09-23 16:12:12,317 - Kafka-Service.log - INFO - Checking HEC Server URI reachability.
+2022-09-23 16:12:14,611 - Kafka-Service.log - INFO - Splunk Server URI is reachable.
+2022-09-23 16:12:14,611 - Kafka-Service.log - WARNING - Connectivity Check: http_status_code=400 http_message={"text":"No data","code":5}
+2022-09-23 16:12:14,612 - Kafka-Service.log - INFO - Https Event Collector Details [{'index': 'kafka-http', 'sourcetype': 'fluentd', 'source': 'kafka-fluentd', 'host': 'SEZLAP-13959'}]
+2022-09-26 12:01:28,496 - Kafka-Service.log - INFO - Func [event_flush] Started
+2022-09-26 12:01:28,496 - Kafka-Service.log - INFO - Func [event_flush] Started
+2022-09-26 12:01:28,496 - Kafka-Service.log - INFO - Func [event_flush] Started
+2022-09-26 12:01:28,496 - Kafka-Service.log - INFO - Func [event_flush] Started
+2022-09-26 12:01:28,498 - Kafka-Service.log - INFO - Splunk Constructor Initiated
+2022-09-26 12:01:28,498 - Kafka-Service.log - INFO - Splunk Constructor Initiated
+2022-09-26 12:01:28,498 - Kafka-Service.log - INFO - Splunk Constructor Initiated
+2022-09-26 12:01:28,498 - Kafka-Service.log - INFO - Splunk Constructor Initiated
+2022-09-26 12:01:28,499 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 12:01:28,499 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 12:01:28,499 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 12:01:28,499 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 12:01:28,499 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 12:01:28,499 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 12:01:28,499 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 12:01:28,500 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 12:01:28,500 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 12:01:28,499 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 12:01:28,500 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 12:01:28,501 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 12:01:28,501 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 12:01:28,500 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 12:01:28,501 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 12:01:28,501 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 12:01:28,501 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 12:01:28,501 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 12:01:28,501 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 12:01:28,502 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 12:01:28,502 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 12:01:28,501 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 12:01:28,502 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 12:01:28,503 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 12:01:28,503 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 12:01:28,502 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 12:01:28,503 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 12:01:28,503 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 12:01:28,503 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 12:01:28,503 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 12:01:28,503 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 12:01:28,503 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 12:01:28,503 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 12:01:28,503 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 12:01:28,503 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 12:01:28,504 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 12:01:28,503 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 12:01:28,504 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 12:01:28,504 - Kafka-Service.log - INFO - HEC Instance Ready: server_uri=https://52.41.31.91:8088/services/collector/event
+2022-09-26 12:01:28,504 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 12:01:28,504 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 12:01:28,504 - Kafka-Service.log - INFO - HEC Instance Ready: server_uri=https://52.41.31.91:8088/services/collector/event
+2022-09-26 12:01:28,504 - Kafka-Service.log - INFO - HEC Instance Ready: server_uri=https://52.41.31.91:8088/services/collector/event
+2022-09-26 12:01:28,504 - Kafka-Service.log - INFO - HEC Instance Ready: server_uri=https://52.41.31.91:8088/services/collector/event
+2022-09-26 12:01:28,505 - Kafka-Service.log - INFO - Checking HEC Server URI reachability.
+2022-09-26 12:01:28,505 - Kafka-Service.log - INFO - Checking HEC Server URI reachability.
+2022-09-26 12:01:28,505 - Kafka-Service.log - INFO - Checking HEC Server URI reachability.
+2022-09-26 12:01:28,505 - Kafka-Service.log - INFO - Checking HEC Server URI reachability.
+2022-09-26 12:01:29,707 - Kafka-Service.log - INFO - Splunk Server URI is reachable.
+2022-09-26 12:01:29,707 - Kafka-Service.log - INFO - Splunk Server URI is reachable.
+2022-09-26 12:01:29,707 - Kafka-Service.log - INFO - Splunk Server URI is reachable.
+2022-09-26 12:01:29,707 - Kafka-Service.log - INFO - Splunk Server URI is reachable.
+2022-09-26 12:01:29,708 - Kafka-Service.log - WARNING - Connectivity Check: http_status_code=400 http_message={"text":"No data","code":5}
+2022-09-26 12:01:29,708 - Kafka-Service.log - WARNING - Connectivity Check: http_status_code=400 http_message={"text":"No data","code":5}
+2022-09-26 12:01:29,708 - Kafka-Service.log - WARNING - Connectivity Check: http_status_code=400 http_message={"text":"No data","code":5}
+2022-09-26 12:01:29,708 - Kafka-Service.log - WARNING - Connectivity Check: http_status_code=400 http_message={"text":"No data","code":5}
+2022-09-26 12:01:29,709 - Kafka-Service.log - INFO - Https Event Collector Details [{'index': 'kafka-http', 'sourcetype': 'fluentd', 'source': 'kafka-fluentd', 'host': 'SEZLAP-13959'}]
+2022-09-26 12:01:29,709 - Kafka-Service.log - INFO - Https Event Collector Details [{'index': 'kafka-http', 'sourcetype': 'fluentd', 'source': 'kafka-fluentd', 'host': 'SEZLAP-13959'}]
+2022-09-26 12:01:29,709 - Kafka-Service.log - INFO - Https Event Collector Details [{'index': 'kafka-http', 'sourcetype': 'fluentd', 'source': 'kafka-fluentd', 'host': 'SEZLAP-13959'}]
+2022-09-26 12:01:29,709 - Kafka-Service.log - INFO - Https Event Collector Details [{'index': 'kafka-http', 'sourcetype': 'fluentd', 'source': 'kafka-fluentd', 'host': 'SEZLAP-13959'}]
+2022-09-26 12:30:53,262 - Kafka-Service.log - INFO - Func [event_flush] Started
+2022-09-26 12:30:53,263 - Kafka-Service.log - INFO - Splunk Constructor Initiated
+2022-09-26 12:30:53,264 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 12:30:53,264 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 12:30:53,265 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 12:30:53,266 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 12:30:53,266 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 12:30:53,266 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 12:30:53,266 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 12:30:53,268 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 12:30:53,268 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 12:30:53,269 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 12:30:53,269 - Kafka-Service.log - INFO - HEC Instance Ready: server_uri=https://52.41.31.91:8088/services/collector/event
+2022-09-26 12:30:53,269 - Kafka-Service.log - INFO - Checking HEC Server URI reachability.
+2022-09-26 12:30:54,507 - Kafka-Service.log - INFO - Splunk Server URI is reachable.
+2022-09-26 12:30:54,507 - Kafka-Service.log - WARNING - Connectivity Check: http_status_code=403 http_message={"text":"Invalid token","code":4}
+2022-09-26 12:30:54,509 - Kafka-Service.log - INFO - Https Event Collector Details [{'index': 'kafka-http', 'sourcetype': 'fluentd', 'source': 'kafka-fluentd', 'host': 'SEZLAP-13959'}]
+2022-09-26 12:31:35,138 - Kafka-Service.log - INFO - Func [event_flush] Started
+2022-09-26 12:31:35,138 - Kafka-Service.log - INFO - Func [event_flush] Started
+2022-09-26 12:31:35,138 - Kafka-Service.log - INFO - Splunk Constructor Initiated
+2022-09-26 12:31:35,138 - Kafka-Service.log - INFO - Splunk Constructor Initiated
+2022-09-26 12:31:35,139 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 12:31:35,139 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 12:31:35,139 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 12:31:35,139 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 12:31:35,140 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 12:31:35,140 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 12:31:35,140 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 12:31:35,140 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 12:31:35,141 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 12:31:35,141 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 12:31:35,141 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 12:31:35,141 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 12:31:35,141 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 12:31:35,141 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 12:31:35,142 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 12:31:35,142 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 12:31:35,142 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 12:31:35,142 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 12:31:35,142 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 12:31:35,142 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 12:31:35,143 - Kafka-Service.log - INFO - HEC Instance Ready: server_uri=https://52.41.31.91:8088/services/collector/event
+2022-09-26 12:31:35,143 - Kafka-Service.log - INFO - HEC Instance Ready: server_uri=https://52.41.31.91:8088/services/collector/event
+2022-09-26 12:31:35,143 - Kafka-Service.log - INFO - Checking HEC Server URI reachability.
+2022-09-26 12:31:35,143 - Kafka-Service.log - INFO - Checking HEC Server URI reachability.
+2022-09-26 12:31:36,333 - Kafka-Service.log - INFO - Splunk Server URI is reachable.
+2022-09-26 12:31:36,333 - Kafka-Service.log - INFO - Splunk Server URI is reachable.
+2022-09-26 12:31:36,333 - Kafka-Service.log - WARNING - Connectivity Check: http_status_code=400 http_message={"text":"No data","code":5}
+2022-09-26 12:31:36,333 - Kafka-Service.log - WARNING - Connectivity Check: http_status_code=400 http_message={"text":"No data","code":5}
+2022-09-26 12:31:36,335 - Kafka-Service.log - INFO - Https Event Collector Details [{'index': 'kafka-http', 'sourcetype': 'fluentd', 'source': 'kafka-fluentd', 'host': 'SEZLAP-13959'}]
+2022-09-26 12:31:36,335 - Kafka-Service.log - INFO - Https Event Collector Details [{'index': 'kafka-http', 'sourcetype': 'fluentd', 'source': 'kafka-fluentd', 'host': 'SEZLAP-13959'}]
+2022-09-26 12:32:26,172 - Kafka-Service.log - INFO - Thread Process <Thread(Thread-23, initial daemon)>
+2022-09-26 12:32:26,172 - Kafka-Service.log - INFO - Thread Process <Thread(Thread-23, initial daemon)>
+2022-09-26 12:32:26,172 - Kafka-Service.log - INFO - Thread Process <Thread(Thread-23, initial daemon)>
+2022-09-26 12:59:29,576 - Kafka-Service.log - INFO - Thread Process <Thread(Thread-2, initial daemon)>
+2022-09-26 12:59:29,577 - Kafka-Service.log - INFO - Func [event_flush] Started
+2022-09-26 12:59:29,578 - Kafka-Service.log - INFO - Splunk Constructor Initiated
+2022-09-26 12:59:29,578 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 12:59:29,579 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 12:59:29,579 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 12:59:29,579 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 12:59:29,580 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 12:59:29,580 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 12:59:29,581 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 12:59:29,581 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 12:59:29,583 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 12:59:29,583 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 12:59:29,583 - Kafka-Service.log - INFO - HEC Instance Ready: server_uri=https://52.41.31.91:8088/services/collector/event
+2022-09-26 12:59:29,584 - Kafka-Service.log - INFO - Checking HEC Server URI reachability.
+2022-09-26 12:59:30,793 - Kafka-Service.log - INFO - Splunk Server URI is reachable.
+2022-09-26 12:59:30,794 - Kafka-Service.log - WARNING - Connectivity Check: http_status_code=400 http_message={"text":"No data","code":5}
+2022-09-26 12:59:30,796 - Kafka-Service.log - INFO - Https Event Collector Details [{'index': 'kafka-http', 'sourcetype': 'fluentd', 'source': 'kafka-fluentd', 'host': 'SEZLAP-13959'}]
+2022-09-26 12:59:52,105 - Kafka-Service.log - INFO - Thread Process <Thread(Thread-14, initial daemon)>
+2022-09-26 12:59:52,105 - Kafka-Service.log - INFO - Thread Process <Thread(Thread-14, initial daemon)>
+2022-09-26 13:03:01,506 - Kafka-Service.log - INFO - Thread Process <Thread(Thread-16, initial daemon)>
+2022-09-26 13:03:01,506 - Kafka-Service.log - INFO - Thread Process <Thread(Thread-16, initial daemon)>
+2022-09-26 13:03:01,506 - Kafka-Service.log - INFO - Thread Process <Thread(Thread-16, initial daemon)>
+2022-09-26 13:10:31,552 - Kafka-Service.log - INFO - Thread Process <Thread(Thread-2, initial daemon)>
+2022-09-26 13:10:31,553 - Kafka-Service.log - INFO - Func [event_flush] Started
+2022-09-26 13:10:31,553 - Kafka-Service.log - INFO - Splunk Constructor Initiated
+2022-09-26 13:10:31,554 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 13:10:31,554 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 13:10:31,555 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 13:10:31,555 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 13:10:31,555 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 13:10:31,556 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 13:10:31,556 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 13:10:31,557 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 13:10:31,557 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 13:10:31,558 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 13:10:31,558 - Kafka-Service.log - INFO - HEC Instance Ready: server_uri=https://52.41.31.91:8088/services/collector/event
+2022-09-26 13:10:31,559 - Kafka-Service.log - INFO - Checking HEC Server URI reachability.
+2022-09-26 13:10:32,743 - Kafka-Service.log - INFO - Splunk Server URI is reachable.
+2022-09-26 13:10:32,744 - Kafka-Service.log - WARNING - Connectivity Check: http_status_code=400 http_message={"text":"No data","code":5}
+2022-09-26 13:10:32,745 - Kafka-Service.log - INFO - Https Event Collector Details [{'index': 'kafka-http', 'sourcetype': 'fluentd', 'source': 'kafka-fluentd', 'host': 'SEZLAP-13959'}]
+2022-09-26 13:11:24,125 - Kafka-Service.log - INFO - Thread Process <Thread(Thread-14, initial daemon)>
+2022-09-26 13:11:24,125 - Kafka-Service.log - INFO - Thread Process <Thread(Thread-14, initial daemon)>
+2022-09-26 13:15:40,067 - Kafka-Service.log - INFO - Thread Process <Thread(Thread-2, initial daemon)>
+2022-09-26 13:15:40,068 - Kafka-Service.log - INFO - Func [event_flush] Started
+2022-09-26 13:15:40,069 - Kafka-Service.log - INFO - Splunk Constructor Initiated
+2022-09-26 13:15:40,072 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 13:15:40,073 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 13:15:40,073 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 13:15:40,073 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 13:15:40,074 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 13:15:40,074 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 13:15:40,074 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 13:15:40,075 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 13:15:40,075 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 13:15:40,075 - Kafka-Service.log - DEBUG - Events received on thread. Sending to Splunk.
+2022-09-26 13:15:40,075 - Kafka-Service.log - INFO - HEC Instance Ready: server_uri=https://52.41.31.91:8088/services/collector/event
+2022-09-26 13:15:40,076 - Kafka-Service.log - INFO - Checking HEC Server URI reachability.
+2022-09-26 13:15:41,265 - Kafka-Service.log - INFO - Splunk Server URI is reachable.
+2022-09-26 13:15:41,265 - Kafka-Service.log - WARNING - Connectivity Check: http_status_code=400 http_message={"text":"No data","code":5}
+2022-09-26 13:15:41,267 - Kafka-Service.log - INFO - Https Event Collector Details [{'index': 'kafka-http', 'sourcetype': 'fluentd', 'source': 'kafka-fluentd', 'host': 'SEZLAP-13959'}]
+2022-09-26 13:15:47,233 - Kafka-Service.log - INFO - Thread Process <Thread(Thread-14, initial daemon)>
+2022-09-26 13:15:47,233 - Kafka-Service.log - INFO - Thread Process <Thread(Thread-14, initial daemon)>
+2022-09-26 13:17:18,508 - Kafka-Service.log - INFO - Thread Process <Thread(Thread-16, initial daemon)>
+2022-09-26 13:17:18,508 - Kafka-Service.log - INFO - Thread Process <Thread(Thread-16, initial daemon)>
+2022-09-26 13:17:18,508 - Kafka-Service.log - INFO - Thread Process <Thread(Thread-16, initial daemon)>

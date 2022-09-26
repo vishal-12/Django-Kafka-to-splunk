@@ -1,7 +1,6 @@
 """splunk_http_event_collector.py
     Splunk HTTP event submission class
-
-    Remember: Friends don't let friends send in non Common Information Model data: http://docs.splunk.com/Documentation/CIM/latest/User/Overview
+    Remember: Common Information Model data: http://docs.splunk.com/Documentation/CIM/latest/User/Overview
         Please use CIM friendly field names when sending in data.
 """
 
@@ -198,6 +197,7 @@ class http_event_collector:
 
         # send event to http event collector
         event = []
+        self.log.info("send event to http event collector")
         if self.input_type == 'json':
             if self.popNullFields:
                 payloadEvent = payload.get('event')
@@ -206,7 +206,7 @@ class http_event_collector:
             event.append(json.dumps(payload, default=str))
         else:
             event.append(str(payload))
-
+        self.log.info("flush Queue {}".format(event))
         self.flushQueue.put(event)
         self.log.debug("Single Submit: Sticking the event on the queue.")
         self.log.debug("event:%s",event)

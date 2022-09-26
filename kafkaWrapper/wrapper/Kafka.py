@@ -1,3 +1,5 @@
+# source="http:demo" (index="order-billing")
+
 from kafka import (KafkaConsumer,
                    TopicPartition,
                    KafkaProducer)
@@ -12,21 +14,24 @@ from kafka.admin import KafkaAdminClient, NewTopic
 from time import gmtime, strftime
 from wrapper.logger import logging
 
+
 def threaded(fn):
     def wrapper(*args, **kwargs):
         thread = Thread(target=fn, args=args, kwargs=kwargs)
+        logging.info("Thread Process {}".format(thread))
         thread.start()
         return thread
 
     return wrapper
 
+
 class KafkaAdmin:
-    def __init__(self,bootstrap_servers,client_id="Sample"):
+    def __init__(self, bootstrap_servers, client_id="Sample"):
         self.bootstrap_servers = bootstrap_servers
         self.client_id = client_id
         self.client = KafkaAdminClient(bootstrap_servers=self.bootstrap_servers, client_id=self.client_id)
 
-    def create(self,topics,partition):
+    def create(self, topics, partition):
         """
             Create Topics
         """
@@ -34,6 +39,7 @@ class KafkaAdmin:
         topic_list.append(NewTopic(name=topics, num_partitions=partition, replication_factor=partition))
         self.client.create_topics(new_topics=topic_list, validate_only=False)
         self.logger.info("Topics Created")
+
 
 class KafkaService:
     """
@@ -56,12 +62,6 @@ class KafkaService:
     """
 
     def __init__(self, *topics, **configs):
-        # logging.basicConfig(filename="Kafka-logs.log",
-        #                     filemode='a',
-        #                     level=logging.DEBUG,
-        #                     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s - %(lineno)d',
-        #                     datefmt='%H:%M:%S',)
-
         self.logger = logging()
         self.logger.set_log_file("kafka.logs")
         self.topics = topics
@@ -81,27 +81,23 @@ class KafkaService:
             svr = list()
             bootstrap_servers = str(self.configs.get("bootstrap_servers"))
             svr.append(bootstrap_servers)
-            self.logger.info("Producer -{} ".format(svr))
             del self.configs["producer"]
             self.broker_producer = KafkaProducer(bootstrap_servers=svr)
 
         if len(topics) == 0:
             self.consumer = KafkaConsumer(*self.topics, **self.configs)
         else:
-            self.logger.info("Consumer ")
             self.consumer = KafkaConsumer(*self.topics, **self.configs)
-        self.logger.info("Done ")
 
     def change_topics(self, *topics, **configs):
         self.client = KafkaConsumer(*topics, **configs)
 
     @threaded
-    def push(self, partition,data):
+    def push(self, partition, data):
         self.broker_producer.send(topic=self.topics[0],
-                      partition=int(partition),
-                      value=json.dumps(data).encode('utf-8')
-                      )
-        self.logger.info("Pushed the logs")
+                                  partition=int(partition),
+                                  value=json.dumps(data).encode('utf-8')
+                                  )
 
     def subscribe(self, *topics, **config):
         """
@@ -124,7 +120,7 @@ class KafkaService:
         # end_offset = consumer.end_offsets([partition])
         # consumer.seek(partition, list(end_offset.values())[0] - 1)
 
-    @threaded
+    #@threaded
     def event_flush(self, **event_collector):
         """
         :param event_collector:
@@ -143,14 +139,14 @@ class KafkaService:
 
         # change rge value in constructor
         self.logger.info("Splunk Constructor Initiated")
-        testevent = http_event_collector(http_event_collector_key, http_event_collector_host,logger=self.logger)
+        testevent = http_event_collector(http_event_collector_key, http_event_collector_host, logger=self.logger)
         hec_reachable = testevent.check_connectivity()
         if not hec_reachable:
             sys.exit(1)
 
         testevent.popNullFields = True
         # set logging to DEBUG for example
-        #testevent.log.setLevel(logging.DEBUG)
+        # testevent.log.setLevel(logging.DEBUG)
         payload.update({
             "index": event_collector.get("index"),
             "sourcetype": event_collector.get("sourcetype"),
@@ -165,12 +161,13 @@ class KafkaService:
                 data = ast.literal_eval(event.value.decode('utf8'))
                 payload.update({"event": data})
                 testevent.sendEvent(payload)
+                print("[Data - {} : pushed to Splunk]".format(payload))
                 self.logger.info("[Data - {} : pushed to Splunk]".format(payload))
                 self.logger.info("Going to sleep for 5 mins")
+                print("Going to sleep for 5 mins")
                 time.sleep(5)
             else:
                 self.logger.info("Data is not Json.Serialized")
-        self.logger.info("task.status Success")
 
     def unsubscribe(self):
         self.client.unsubscribe()
@@ -190,48 +187,19 @@ class KafkaService:
                 payload["topicWithPartitions"]["data"]["topics"].append({"topic": tps, "partition": partition})
         return json.dumps(payload)
 
-# # #
-##aa= KafkaService("datacenters",bootstrap_servers = "52.41.31.91:29092",producer = True)
-##aa.push(0,{"data":"test"})
 
-# aa.subscribe_topic("fluentd-poc",bootstrap_servers = "52.41.31.91:39092",partition= [0])
-# aa.get_list_of_topic_and_partition()
-
-
-# #admin = KafkaAdminClient(bootstrap_servers ="52.41.31.91:39092")
+# aa = KafkaService("fluentd-poc", bootstrap_servers="52.41.31.91:39092", auto_offset_reset='earliest')
 #
-# #Create a topic
-# #client.create_topics
-#
-# #kafka Client
-# client= KafkaClient(bootstrap_servers ="52.41.31.91:39092",client_id = "fluentd-poc")
-#
-# #topic =  client.add_topic("Fake_App")
-#
-# ##
-#
-# aa = {"error" : "500 json error","id": 14,"info":"Customer","job_id": "9"}
-# producer = KafkaProducer(bootstrap_servers=["52.41.31.91:39092"])
-# ##
-# #Send data
-# producer.send(topic="fluentd-poc",
-#               partition=0,
-#               #key=b"test01",
-#               value=json.dumps(aa).encode('utf-8')
-#               )
-#
-#
-# Kafka Consumer
-# consumer = KafkaConsumer("fluentd-poc",
-# #     bootstrap_servers="52.41.31.91:39092",
-# #    # value_deserializer=lambda v: json.dumps(v).encode("utf-8"),
-# #      auto_offset_reset='earliest'
-#                          )
-# for i in consumer:
-#     print (i)
-#
-#
-# #Link - https://kafka-python.readthedocs.io/en/master/apidoc/ClusterMetadata.html
-#
-#
-# #Listner  - https://kafka-python.readthedocs.io/en/master/
+# print ("---")
+# event_collector = {
+#                    "index": "kafka-http",
+#                    "sourcetype": "fluentd",
+#                    "source": "kafka-fluentd",
+#                    "host": "SEZLAP-13959",
+#                    "subscribe": True,
+#                    "http_event_collector_key": "f7ea4464-0f49-4dc5-be1f-ca121565af34",
+#                    "http_event_collector_host": "52.41.31.91",
+#                    "topics": "fluentd-poc",
+#                    "partition": "0"
+#                    }
+# aa.event_flush(**event_collector)

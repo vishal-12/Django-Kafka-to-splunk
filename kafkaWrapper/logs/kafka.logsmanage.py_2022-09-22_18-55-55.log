@@ -1,4 +1,0 @@
-2022-09-23 00:25:55,278 - Kafka-Service.log - INFO - Producer -['52.41.31.91:39092'] 
-2022-09-23 00:25:56,036 - Kafka-Service.log - INFO - Consumer 
-2022-09-23 00:25:56,770 - Kafka-Service.log - INFO - Done 
-2022-09-23 00:25:56,772 - Kafka-Service.log - INFO - Pushed the logs

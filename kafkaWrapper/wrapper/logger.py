@@ -52,7 +52,7 @@ class logging:
             log_folder = Path(file_path)
         if not log_folder.exists():
             log_folder.mkdir(parents= True)
-        fileHandler = log.FileHandler( "{0}/{1}_{2}.log".format( log_folder, log_file , strftime("%Y-%m-%d_%H-%M-%S", gmtime()) ))
+        fileHandler = log.FileHandler( filename="{0}/{1}.log".format( log_folder, log_file),mode='a') #, strftime("%Y-%m-%d_%H-%M-%S", gmtime()) ))
         fileHandler.setLevel(log.DEBUG)
         fileHandler.setFormatter(formatter)
         s_logging.addHandler(fileHandler)
@@ -81,7 +81,7 @@ class logging:
         global logger_set
 
         if logger_set:
-            s_logging.info(msg)
+            s_logging.debug(msg)
         else:
             print("%s DEBUG: %s" % (time.strftime("%c"), msg))
         if type(msg) is list:
@@ -96,7 +96,7 @@ class logging:
         global logger_set
 
         if logger_set:
-            s_logging.info(msg)
+            s_logging.warn(msg)
         else:
             print("%s WARN: %s" % (time.strftime("%c"), msg ))
         if type(msg) is list:
@@ -134,7 +134,7 @@ class logging:
             logs['error'].append({"Error message": msg, "Error code": code})
         if (ex is True):
             logging.info("ex is true in error funtion of logger")
-            logging.exit_log()
+            #logging.exit_log()
         else:
             logging.info("ex is false")
 
